@@ -1,0 +1,161 @@
+:Base MC9.HLP
+:Title Micro-Cap 9 Help
+1 Analysis Contents
+2 Transient Analysis
+3 What happens in Transient analysis=What_Happens_in_Transient_Analysis
+3 3D Plotting=3D_Plotting
+3 Analysis Plot Properties dialog box=Analysis_Plot_Properties_dialog_box
+3 Fourier=Fourier
+3 Initialization=Initialization
+3 Monte Carlo=PID_MAIN_MONTE
+3 Numeric Output=Numeric_Output
+3 Operating Point Methods=Operating_Point_Methods
+3 Optimizer=Optimizer
+3 Performance Plots/Functions=Performance_Plots_Functions
+3 Plot Properties dialog box=Analysis_Plot_Properties_dialog_box
+3 Probe=PID_PROBE
+3 Scope=_SCOPE
+3 Sliders=Sliders
+3 State Variables Editor=IDD_STATE_VAR
+3 Stepping=Stepping
+3 Transient Analysis Limits dialog box=IDD_LIMIT_TRAN
+3 Transient menu=Transient_menu
+3 Using the P Key=PID_PKEY
+2 AC Analysis
+3 3D Plotting=3D_Plotting
+3 AC Analysis description=AC_Analysis_description
+3 AC Analysis Limits dialog box=IDD_LIMIT_AC
+3 AC menu=AC_menu
+3 Monte Carlo=PID_MAIN_MONTE
+3 Noise=Noise
+3 Numeric Output=Numeric_Output
+3 Operating Point Methods=Operating_Point_Methods
+3 Optimizer=Optimizer
+3 Performance Plots/Functions=Performance_Plots_Functions
+3 Plot Properties dialog box=Analysis_Plot_Properties_dialog_box
+3 Probe=PID_PROBE
+3 Scope=_SCOPE
+3 Sliders=Sliders
+3 Stepping=Stepping
+3 Troubleshooting AC=Troubleshooting_AC
+3 Using the P Key=PID_PKEY
+2 DC Analysis
+3 3D Plotting=3D_Plotting
+3 DC Analysis Limits dialog box=IDD_LIMIT_DC
+3 DC menu=DC_menu
+3 Monte Carlo=PID_MAIN_MONTE
+3 Numeric Output=Numeric_Output
+3 Optimizer=Optimizer
+3 Performance Plots/Functions=Performance_Plots_Functions
+3 Plot Properties dialog box=Analysis_Plot_Properties_dialog_box
+3 Probe=PID_PROBE
+3 Scope=_SCOPE
+3 Sliders=Sliders
+3 Stepping=Stepping
+3 Troubleshooting DC=Troubleshooting_DC
+3 Using the P Key=PID_PKEY
+2 Dynamic DC Analysis
+3 What happens in Dynamic DC analysis=What_happens_in_Dynamic_DC_analysis
+3 Dynamic DC Display Options=Dynamic_DC_Display_Options
+3 Dynamic DC Limits dialog box=IDD_LIMIT_DYNAMICDC
+3 Dynamic DC menu=Dynamic_DC_menu
+3 Dynamic DC Optimize dialog box=IDD_OPTIMIZE_DYNAMIC
+3 Dynamic DC Stepping dialog box=IDD_STEPPING_DYNAMICDC
+3 Operating Point Methods=Operating_Point_Methods
+3 Sliders=Sliders
+2 Dynamic AC Analysis
+3 What Happens in Dynamic AC Analysis=What_Happens_in_Dynamic_AC_Analysis
+3 Dynamic AC Display Options=Dynamic_DC_Display_Options
+3 Dynamic AC Limits dialog box=IDD_LIMIT_DYNAMICAC
+3 Dynamic AC menu=Dynamic_AC_menu
+3 Dynamic AC Optimize dialog box=IDD_OPTIMIZE_DYNAMIC
+3 Dynamic AC Stepping dialog box=IDD_STEPPING_DYNAMICDC
+3 Operating Point Methods=Operating_Point_Methods
+3 Sliders=Sliders
+2 Transfer Function Analysis
+3 Transfer Function dialog box=IDD_TF
+3 What happens in Transfer Function analysis=What_happens_in_Transfer_Function_analysis
+2 Sensitivity Analysis
+3 Sensitivity dialog box=IDD_SENS
+3 What happens in Sensitivity analysis=What_happens_in_Sensitivity_analysis
+2 Distortion Analysis
+3 What Happens in Distortion Analysis=What_Happens_in_Distortion_Analysis
+3 Distortion Analysis Limits dialog box=IDD_LIMIT_DISTORTION
+3 Operating Point Methods=Operating_Point_Methods
+3 Sliders=Sliders
+2 Fourier
+3 Eliminating a transient=Eliminating_a_transient
+3 FFT accuracy=FFT_accuracy
+3 FFT page=IDD_AP_FFT_PAGE
+3 FFT speed=FFT_speed
+3 FFT Window Properties dialog box=FFT_Window_Properties_dialog_box
+3 Fourier basics=Fourier_basics
+3 Fourier Operators=_SIGNAL
+1 Design Contents
+2 Active Filter
+3 How the designer works=How_the_active_filter_designer_works
+3 Active Filter Designer dialog box=Active_Filter_Designer_dialog_box
+3 Component Lists Format=Component_Lists_Format
+3 Filter support files=Filter_Support_Files
+2 Passive Filter
+3 How the designer works=How_the_passive_filter_designer_works
+3 Passive Filter Designer dialog box=Passive_Filter_Designer_dialog_box
+3 Component Lists Format=Component_Lists_Format
+3 Filter support files=Filter_Support_Files
+1 Editors Contents
+; next level + 1
+1 Circuit Editor=Circuit_Editor
+2 Component Editor=Component_Editor_overview
+2 Model Editor=PID_LIBRARY
+2 Package Editor=Package_Editor_overview
+2 Shape Editor=Shape_Editor_overview
+2 State Variables Editor=IDD_STATE_VAR
+1 Menu Contents
+2 File menu=File_menu
+2 Edit menu=Edit_Menu
+2 Component menu=Component_Menu
+2 Component Panel=Component_Panel
+2 Windows menu=Windows_menu
+2 Options menu=Options_Menu
+2 Analysis menu=Analysis_Menu
+2 Design menu=Design_menu
+2 Model menu=Model_menu
+2 Help menu=The_Help_menu
+1 FAQ Contents
+2 Headlines Contents
+3 MC9 New Features=ID_HELP_NEW_FEATURES
+3 MC8 New Features=MC8_New_Features
+3 MC7 to MC8=MC7_to_MC8
+3 MC7 New Features=MC7_New_Features
+3 MC6 to MC7=MC6_to_MC7
+3 MC6 New Features=MC6_New_Features
+3 MC5v2 to MC6=MC5_to_MC6
+3 MC5v2 New Features=MC5v2_New_Features
+3 MC5v1 to MC5v2=MC5v1_to_MC5v2
+3 MC4 to MC5=MC4_to_MC5
+; next level + 1
+1 File Portability=File_Portability
+2 How to add new libraries=How_to_add_new_libraries
+2 How to step multiple resistors=How_to_step_multiple_resistors
+2 How to tolerance an impedance element=How_to_tolerance_an_impedance_element
+1 Topics Contents
+2 .Command Statements=PID_COM
+2 3D Plotting=3D_Plotting
+2 Analog Device Models=device_name
+2 Animation=Animation
+2 Convergence=Convergence
+2 Digital Device Models=Digital_Device_Models
+2 Digital Simulation=Digital_Simulation
+2 Expressions=PID_EXP
+2 FFT Windows/Plots=Fourier
+2 Libraries=Libraries
+2 Model Program=Model_Program
+2 Monte Carlo=PID_MAIN_MONTE
+2 Optimizer=Optimizer
+2 Performance Plots/Functions=Performance_Plots_Functions
+2 Printing=_PRINT_PLOT
+2 Probe=PID_PROBE
+2 Scope=_SCOPE
+2 Stepping=Stepping
+1 Known Problems
+2 Thick Patterned Lines Not Available in Windows 98=Thick_Patterned_Lines

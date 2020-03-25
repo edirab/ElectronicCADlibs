@@ -1,0 +1,54 @@
+
+
+                            List of Contents
+                            ****************
+
+
+The following is a list of all of the HASP Device Driver files.
+
+WIN95 <DIR>
+~~~~~~~~~~~
+
+  FILES
+  ~~~~~
+  AKSUSB95.SYS : USB HASP Device Driver for Windows 95.
+  AKSUSB95.INF : Information file for USB HASP Device Driver.
+  HASP95.VXD   : Static virtual device driver for Windows 95.
+  HASP95DL.VXD : Dynamic virtual device driver for Windows 95.
+  HARDLOCK.VXD : Dynamic virtual device driver for Windows 95.
+
+
+WIN98 <DIR>
+~~~~~~~~~~~
+
+  FILES
+  ~~~~~
+  AKSUSB.SYS   : HASP USB Device Driver for Windows 98 and Windows ME.
+  AKSUSB.INF   : Information file for HASP USB Device Driver.
+  HASP95.VXD   : Static virtual device driver for Windows 98 and Windows ME.
+  HASP95DL.VXD : Dynamic virtual device driver for Windows 98 and Windows ME.
+  HARDLOCK.VXD : Dynamic virtual device driver for Windows 98 and Windows ME.
+
+
+Windows <DIR>
+~~~~~~~~~~~~~
+
+  FILES
+  ~~~~~
+  HASP.386     : Windows virtual device driver for Windows 3.x and Win32s.
+  HASPUT16.DLL : Universal thunk DLL for Win32s.
+  HARDLOCK.VXD : Dynamic virtual device driver for Windows 3.x and Win32s.
+  API_1LNM.DLL : Universal thunk DLL for Win32s.
+
+
+WINNT <DIR>
+~~~~~~~~~~~
+
+  FILES
+  ~~~~~
+  HASPNT.SYS   : Kernel device driver for Windows NT and Windows 2000.
+  HARDLOCK.SYS : Kernel device driver for Windows NT and Windows 2000.
+  HASPDOS.SYS  : DOS device driver for Windows NT and Windows 2000.
+  HASPVDD.DLL  : Virtual device driver for Windows NT and Windows 2000.
+  AKSUSB.SYS   : HASP USB device driver for Windows NT and Windows 2000.
+  AKSUSB.INF   : Information file for HASP USB Device Driver.

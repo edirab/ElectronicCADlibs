@@ -1,0 +1,990 @@
+[Main]
+FileType=MCAP.DAT
+Version=9.00
+Program=Micro-Cap
+Language=AUTO
+MCAPDATA=E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\data\
+ModelLibPath=E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\library\
+PicturePath=E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\data\
+DocumentPath=E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\documents\
+LookInSubfolders=True
+Screen=1280,1024
+Key ID=Demo
+Code page=1251
+User LID=0x419
+System LID=0x419
+
+[Global Settings]
+ABSTOL=1pA
+CHGTOL=.01pC
+DEFAD=0
+DEFAS=0
+DEFL=100u
+DEFW=100u
+DEFNRD=0
+DEFNRS=0
+DEFPD=0
+DEFPS=0
+DIGDRVF=2
+DIGDRVZ=20K
+DIGERRDEFAULT=20
+DIGERRLIMIT=0
+DIGFREQ=10GHz
+DIGINITSTATE=0
+DIGIOLVL=2
+DIGMNTYMX=2
+DIGMNTYSCALE=0.4
+DIGOVRDRV=3
+DIGTYMXSCALE=1.6
+GMIN=1p
+ITL1=100
+ITL2=50
+ITL4=10
+NOOUTMSG=0
+PIVREL=1m
+PIVTOL=.1p
+RELTOL=1m
+SD=2.58
+SEED=0
+TEMP=27
+TNOM=27
+TRTOL=7
+TRYTOCOMPACT=0
+VNTOL=1u
+WIDTH=80
+PRIVATEDIGITAL=0
+PRIVATEANALOG=1
+PERFORM_M=2
+RMIN=1u
+R_NODE_GND=1e12
+NUMERIC_DERIVATIVE=0
+LTHRESH=1.5
+LONE=3.5
+LZERO=.3
+CSHUNT=0
+RSHUNT=0
+RP_FOR_ISOURCE=0
+METHOD=GEAR
+
+[Preferences]
+Main Window Placement=0,1, -1,-1, -1,-1, 138,138,1098,865
+Att Width=-1
+Time Stamp=No
+Date Stamp=No
+Sound=Yes
+Print Background=No
+Use Bitmaps In Menus=No
+Add Parentheses To Define=Yes
+Component Menu Shape Display=Yes
+Sort Model Parameters=Yes
+Show Full Paths Title and Menu=Yes
+Warning Time=3
+Analysis Select Mode=No
+Floating Nodes Check=No
+Add DC Path To Ground=No
+Inertial Cancellation=Yes
+Select Wavefrom Color=Yes
+Check DC Path To Ground=Yes
+Analysis On Top=Yes
+Analysis Progress Bar=No
+Convergence Assist=Yes
+Dynamic Auto Run=Yes
+Macro DrillDown=Yes
+Smart Entry=Yes
+Derivative Threshold=10000
+CIR Select Mode=No
+CIR Text Increment=Yes
+Component Cursor=Yes
+CIR Node Snap=Yes
+CIR RubberBanding=No
+Block Select Flag=Yes
+Show Model Page=No
+Automatically Add Opamp Power Supplies=Yes
+CIR Node Highlight Flag=Yes
+CIR ComponentImport=Yes
+CIR ElementInfo=Yes
+CIR Copy and Paste Models=No
+NodeRecalc=1000000
+DefaulFileLink="http://www.google.com/search?q="%s"+"data sheet""
+Quit Warning=Yes
+File Warning=Yes
+Opamp Power Warning=Yes
+Add DC Path To Ground Warning=Yes
+Part Node The Same Warning=Yes
+Excessive Time Range Warning=Yes
+Excessive Source Points Warning=Yes
+Excessive Data Points Warning=Yes
+Revert Warning=Yes
+AC Signal Warning=Yes
+SPICE3 TEMP=Yes
+Warning Level Changed=Yes
+TNom and T_MEASURED=Yes
+Model Att Not Used=Yes
+Show Slider=No
+Slider Font Default=Height=0,FStyle=0,Color=#000000,Name=(null)
+Slider Format Default=3
+Slider PerChange Default
+Slider Pos Default=Left
+ExpandFontScale=1
+AutoSave=No
+AutoSaveEvery=No
+AutoSaveMin=10
+Status Bar=No
+Status Bar Show Time=No
+Status Bar Track=Yes
+ATT Status Bar=Yes
+Default Object
+Default Object Font=Height=0,FStyle=0,Color=#000000,Name=(null)
+Default Object Apply Border To Text=No
+Default Object Apply Fill To Text=No
+SpiceType=AMBIGUOUS
+TagFormat=3
+NodeVoltageFormat=3
+OperatingPointFormat=3
+OptimizeFormat=3
+WatchFormat=3
+Find Model Parameters=Yes
+CIR GridUser=0
+CIR ShapeGroups="Main","Euro","DeMorgan","Polarity","Electrolytic"
+CIR CalcRMS=False
+CIR CalcAVG=False
+CIR CalcPeak=False
+CIR DisplayMeasure=Last
+FileDialog Placement=-1,-1,-1,-1
+G2D DataPoints=False
+G2D Tokens=False
+G2D Ruler=False
+G2D PlusMark=False
+G2D XAxisGrids=True
+G2D YAxisGrids=True
+G2D MinorLogGrids=True
+G2D MinorLog25=False
+G2D LabelMinor=False
+G2D BaseLine=False
+G2D HorizontalCursor=False
+G2D Tracker Cursor=True
+G2D Tracker Intercept=False
+G2D Tracker Cursor BranchInfo=False
+G2D Tracker Mouse=True
+G2D Slope Calculation=Normal
+G2D ScaleFormatX=3
+G2D ScaleFormatY=3
+G2D ValueFormatX=3
+G2D ValueFormatY=3
+G2D ScaleFactorX
+G2D ScaleFactorY
+G2D ScaleUnitX
+G2D ScaleUnitY
+G2D Grid Weight=1
+G2D Grid Pattern=Dot
+G2D Enable X Scaling=False
+G2D Enable Y Scaling=False
+G2D Keep X Scales The Same=False
+G2D Static Grids=False
+G2D Same Y Scales=False
+G2D Number of Grids X=0
+G2D Number of Grids Y=0
+G2D Window Background=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Text=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Select=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Select Box=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Grid=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Graph Background=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Baseline Color=#000000
+G2D Track Color Fore=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Track Color Back=#000000
+G2D Waveform 1=Line=#000000,Text=#000000
+G2D Waveform 2=Line=#000000,Text=#000000
+G2D Waveform 3=Line=#000000,Text=#000000
+G2D Waveform 4=Line=#000000,Text=#000000
+G2D Waveform 5=Line=#000000,Text=#000000
+G2D Waveform 6=Line=#000000,Text=#000000
+G2D Waveform 7=Line=#000000,Text=#000000
+G2D Waveform 8=Line=#000000,Text=#000000
+G2D Waveform 9=Line=#000000,Text=#000000
+G2D Waveform 10=Line=#000000,Text=#000000
+G2D Save_For_Future=False
+G2D Num Out Write=False
+G2D Num Out Write Main Header=False
+G2D Num Out Write Limits=False
+G2D Num Out Write Branch Header=False
+G2D Num Out Write Models=False
+G2D Num Out Write Zero Models=False
+G2D Num Out Write Undefined Models=False
+G2D Num Out Write Operating=False
+G2D Num Out Write Values=False
+G2D Num Out Write Waveform Header=False
+G2D Data Point Labels Color Fore=Height=0,FStyle=0,Color=#000000,Name=(null)
+G2D Data Point Labels Color Back=#000000
+G2DFFT_Max
+G2DFFT_Min
+G2DFFT_NPts
+G2D IncludeDCHarmonic=No
+G2D AutoScale Harmonics
+PFM ScaleFormatX=3
+PFM ScaleFormatY=3
+PFM ValueFormatX=3
+PFM ValueFormatY=3
+PFM ScaleFactorX
+PFM ScaleFactorY
+PFM ScaleUnitX
+PFM ScaleUnitY
+PFM Grid Weight=1
+PFM Grid Pattern=Dot
+PFM Enable X Scaling=False
+PFM Enable Y Scaling=False
+PFM Keep X Scales The Same=False
+PFM Static Grids=False
+PFM Same Y Scales=False
+PFM Number of Grids X=0
+PFM Number of Grids Y=0
+PFM Window Background=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Text=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Select=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Select Box=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Grid=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Graph Background=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Baseline Color=#000000
+PFM Track Color Fore=Height=0,FStyle=0,Color=#000000,Name=(null)
+PFM Track Color Back=#000000
+PFM Waveform 1=Line=#000000,Text=#000000
+PFM Waveform 2=Line=#000000,Text=#000000
+PFM Waveform 3=Line=#000000,Text=#000000
+PFM Waveform 4=Line=#000000,Text=#000000
+PFM Waveform 5=Line=#000000,Text=#000000
+PFM Waveform 6=Line=#000000,Text=#000000
+PFM Waveform 7=Line=#000000,Text=#000000
+PFM Waveform 8=Line=#000000,Text=#000000
+PFM Waveform 9=Line=#000000,Text=#000000
+PFM Waveform 10=Line=#000000,Text=#000000
+G3D ScaleFormatX=3
+G3D ScaleFormatY=3
+G3D ScaleFormatZ=3
+G3D ValueFormatX=3
+G3D ValueFormatY=3
+G3D ValueFormatZ=3
+G3D Slope Calculation=Normal
+FTT ScaleFormatX=3
+FTT ScaleFormatY=3
+FTT ValueFormatX=3
+FTT ValueFormatY=3
+FTT ScaleFactorX
+FTT ScaleFactorY
+FTT ScaleUnitX
+FTT ScaleUnitY
+FTT Grid Weight=1
+FTT Grid Pattern=Dot
+FTT Enable X Scaling=False
+FTT Enable Y Scaling=False
+FTT Keep X Scales The Same=False
+FTT Static Grids=False
+FTT Same Y Scales=False
+FTT Number of Grids X=0
+FTT Number of Grids Y=0
+FTT Window Background=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Text=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Select=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Select Box=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Grid=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Graph Background=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Baseline Color=#000000
+FTT Track Color Fore=Height=0,FStyle=0,Color=#000000,Name=(null)
+FTT Track Color Back=#000000
+FTT Waveform 1=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 2=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 3=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 4=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 5=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 6=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 7=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 8=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 9=Line=#000000,Text=#000000,CS=Popsicle
+FTT Waveform 10=Line=#000000,Text=#000000,CS=Popsicle
+FTTFFT_Max
+FTTFFT_Min
+FTTFFT_NPts
+FTT IncludeDCHarmonic=No
+FTT AutoScale Harmonics
+PathDelayFormat=3
+CalculatorFormat=3
+FormulaFormat=3
+AlignZ=Yes
+Align Cursors=No
+;Default Attributes
+Status Bar Text=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Circuit Background=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+Select=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+Block Select=Height=-15,FStyle=0,Color=#51F998,Name=Arial
+Select Box=Height=-15,FStyle=0,Color=#000080,Name=Arial
+CIR Node Highlight=Height=-15,FStyle=0,Color=#00FFFF,Name=Arial
+Component=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+Wire=Height=-15,FStyle=0,Color=#008000,Name=Arial
+Bus=Height=-15,FStyle=0,Color=#008000,Name=Arial
+Node Number=Height=-11,FStyle=0,Color=#FF00FF,Name=Arial
+Pin=Height=-10,FStyle=0,Color=#FF0000,Name=Arial
+Node Voltage=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Dynamic AC Voltage=Height=-15,FStyle=0,Color=#E4E4E4,Name=Arial
+Grid Text=Height=-12,FStyle=0,Color=#FF0000,Name=Verdana
+Circuit Text Area=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Digital Path=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+Attribute Text=Height=-12,FStyle=0,Color=#008000,Name=Verdana
+Circuit Text Area Comment=Height=-15,FStyle=0,Color=#008000,Name=Arial
+Circuit Text Area Background=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+Title Block=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Text Banner Text=Height=-15,FStyle=0,Color=#800000,Name=Arial
+Text Banner Background=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+CIR Current=Height=-11,FStyle=0,Color=#0000FF,Name=Arial
+CIR Power=Height=-11,FStyle=0,Color=#FF0000,Name=Arial
+Digital 0=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Digital R=Height=-15,FStyle=0,Color=#FFFF00,Name=Arial
+Digital F=Height=-15,FStyle=0,Color=#FFFF00,Name=Arial
+Digital 1=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+Digital X=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+Digital Z=Height=-15,FStyle=0,Color=#808080,Name=Arial
+CIR Disabled=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+CIR KeyWord=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+CIR Error=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+MC Window Background=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+MC Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+MCL Select=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+MCL Select Box=Height=-15,FStyle=0,Color=#000080,Name=Arial
+MC Grid=Height=-15,FStyle=0,Color=#808080,Name=Arial
+MC Graph Background=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+MC Bar Front=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+MC Bar Top/Side=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+3D Window Background=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+3D Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+G3D Select=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+G3D Select Box=Height=-15,FStyle=0,Color=#000080,Name=Arial
+3D Grid=Height=-15,FStyle=0,Color=#808080,Name=Arial
+3D X Axis Plain Color=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+3D Y Axis Plain Color=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+3D Z Axis Plain Color=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+3D Wire Grid Color=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Text Background=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+Text Text=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Text Comment=Height=-15,FStyle=0,Color=#008000,Name=Arial
+Text KeyWord=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+Text Error=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+Text Disabled=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+MDL Window Background=Height=-15,FStyle=0,Color=#D3D3D3,Name=Arial
+MDL Curve=Height=-15,FStyle=0,Color=#000080,Name=Arial
+MDL Data Points=Height=-15,FStyle=0,Color=#FF0000,Name=Arial
+MDL Grid=Height=-15,FStyle=0,Color=#FFFFFF,Name=Arial
+MDL Graph Background=Height=-15,FStyle=0,Color=#C0C0C0,Name=Arial
+MDL Scale=Height=-15,FStyle=0,Color=#000080,Name=Arial
+G3D PatchColor=Clear
+CUSTOM_COLOR_0=#000000
+CUSTOM_COLOR_1=#000000
+CUSTOM_COLOR_2=#000000
+CUSTOM_COLOR_3=#000000
+CUSTOM_COLOR_4=#000000
+CUSTOM_COLOR_5=#000000
+CUSTOM_COLOR_6=#000000
+CUSTOM_COLOR_7=#000000
+CUSTOM_COLOR_8=#000000
+CUSTOM_COLOR_9=#000000
+CUSTOM_COLOR_10=#000000
+CUSTOM_COLOR_11=#000000
+CUSTOM_COLOR_12=#000000
+CUSTOM_COLOR_13=#000000
+CUSTOM_COLOR_14=#000000
+CUSTOM_COLOR_15=#000000
+
+[Panels]
+Show=Yes
+Browse=Yes
+Search=Yes
+sizeHorz=200,200
+sizeVert=200,679
+sizeFloat=200,200
+BrowseSplitter=180
+SearchSplitter=180
+Single Expand=True
+Buttons=Top
+
+[Tabs]
+Show=Yes
+Show Full Paths=No
+Show Icons=No
+Pos=Bottom
+Style=Tabs
+
+[Optimizer Settings]
+TOL
+PERCENTTOL
+INITIALRANGEFACTOR
+
+[Palettes]
+PALETTE_0=#000000
+PALETTE_1=#800000
+PALETTE_2=#008000
+PALETTE_3=#808000
+PALETTE_4=#000080
+PALETTE_5=#800080
+PALETTE_6=#008080
+PALETTE_7=#C0C0C0
+PALETTE_8=#808080
+PALETTE_9=#FF0000
+PALETTE_10=#00FF00
+PALETTE_11=#FFFF00
+PALETTE_12=#0000FF
+PALETTE_13=#FF00FF
+PALETTE_14=#00FFFF
+PALETTE_15=#FFFFFF
+PALETTE_16=#000000
+PALETTE_17=#000000
+PALETTE_18=#000000
+PALETTE_19=#000000
+PALETTE_20=#000000
+PALETTE_21=#000000
+PALETTE_22=#000000
+PALETTE_23=#000000
+PALETTE_24=#000000
+PALETTE_25=#000000
+PALETTE_26=#000000
+PALETTE_27=#000000
+PALETTE_28=#000000
+PALETTE_29=#000000
+PALETTE_30=#000000
+PALETTE_31=#000000
+PALETTE_32=#000000
+PALETTE_33=#000000
+PALETTE_34=#000000
+PALETTE_35=#000000
+PALETTE_36=#000000
+PALETTE_37=#000000
+PALETTE_38=#000000
+PALETTE_39=#000000
+PALETTE_40=#000000
+PALETTE_41=#000000
+PALETTE_42=#000000
+PALETTE_43=#000000
+PALETTE_44=#000000
+PALETTE_45=#000000
+PALETTE_46=#000000
+PALETTE_47=#000000
+PALETTE_48=#000000
+PALETTE_49=#000000
+PALETTE_50=#000000
+PALETTE_51=#000000
+PALETTE_52=#000000
+PALETTE_53=#000000
+PALETTE_54=#000000
+PALETTE_55=#000000
+PALETTE_56=#000000
+PALETTE_57=#000000
+PALETTE_58=#000000
+PALETTE_59=#000000
+PALETTE_60=#000000
+PALETTE_61=#000000
+PALETTE_62=#000000
+PALETTE_63=#000000
+
+[Printer]
+Field_1
+Field_2
+Field_3
+Field_4
+Field_5
+One Title=Yes
+Title_Block_Border=No
+Title_Block=No
+Orientation=0
+ForceBlackandWhite=No
+Header
+Footer
+
+[Tool Windows]
+
+[Component Palette]
+Bar 0=Analog
+Bar 1=Analog Models
+Bar 2=Digital
+Bar 3=Digital ICs
+Bar 4=Palette 5
+Bar 5=Palette 6
+Bar 6=Palette 7
+Bar 7=Palette 8
+Bar 8=Palette 9
+
+[Main Toolbar]
+TCOMP01=Off
+TCOMP02=Off
+TCOMP03=Off
+TCOMP04=Off
+TCOMP05=Off
+TCOMP06=Off
+TCOMP07=Off
+TCOMP08=Off
+TCOMP09=Off
+TCOMP10=Off
+TCOMP11=Off
+TCOMP12=Off
+TCOMP13=Off
+TCOMP14=Off
+TCOMP15=Off
+TCOMP16=Off
+TCOMP17=Off
+TCOMP18=Off
+TCOMP19=Off
+TCOMP20=Off
+UNDO=Off
+REDO=Off
+CUT=Off
+COPY=Off
+PASTE=Off
+CLEAR=Off
+SELECTAL=Off
+FINDINFILES=Off
+NEW=Off
+OPENFILE=Off
+SAVEFILE=Off
+REVERT=Off
+PRINT=Off
+PPREVIEW=Off
+PRTSETUP=Off
+PREF=Off
+GS=Off
+PANEL=Off
+WINDOWTABS=Off
+TILEH=Off
+TILEV=Off
+CASCADE=Off
+MAKEMAX=Off
+MAKEQRT=Off
+MAKEMAXMULT=Off
+CALC=Off
+LIMITS=Off
+STEPPING=Off
+ANIMATE=Off
+OPTIMIZE=Off
+AGRAPH=Off
+VID=Off
+MCOP=Off
+MCADD=Off
+MCDEL=Off
+G3DADD=Off
+G3DDEL=Off
+PERFADD=Off
+PERFDEL=Off
+THUMB=Off
+
+[Cir Default ToolBar]
+Pos=Top
+PROBE=On
+SELECT=On
+COMP=On
+TEXT=On
+WIRE=On
+WIRED=On
+BUS=On
+GRAPHIC=On
+LINE=Off
+ELLIPSE=Off
+RECT=Off
+DIAM=Off
+ARC=Off
+PIE=Off
+LEFTBRK=Off
+RIGHTBRK=Off
+BOTHBRK=Off
+FLAG=On
+META=Off
+INFO=On
+HELP=On
+LINK=On
+REGION_ENABLE=On
+DIGTRC=Off
+DIGTRC2=Off
+DIGALL=Off
+GRIDTEXT=On
+COMPTEXT=On
+NODE=On
+MEASURED=On
+NODEV=On
+CURRENT=On
+POWER=On
+CONDITIN=On
+PIN=On
+CROSS=Off
+GRID=On
+BORDER=Off
+TITLE=On
+RUBBER=On
+PROPERTY=On
+STEP=On
+MIRROR=On
+ROTATE=On
+FLIPY=On
+FLIPX=On
+FINDCOMP=On
+FIND=On
+REPEAT=Off
+MODEL=On
+CIR2CKT=Off
+ATTDISP=Off
+ENABLE=On
+DISABLE=On
+TOFRONT=On
+TOBACK=On
+SELNEXT=Off
+PAGEADD=Off
+PAGEDEL=Off
+ZOOMIN=On
+ZOOMOUT=On
+GOTOFLAG=Off
+UPLEVEL=On
+COLOR=On
+FONT=On
+
+[Txt Default ToolBar]
+Pos=Top
+SELECT=On
+INFO=On
+HELP=On
+PROPERTY=On
+FIND=On
+REPEAT=Off
+MODEL=On
+LIB2LBR=On
+ZOOMIN=On
+ZOOMOUT=On
+UPLEVEL=On
+COLOR=On
+FONT=On
+
+[LBR Default ToolBar]
+Pos=Left
+
+[G2D Default ToolBar]
+Pos=Top
+SELECT=On
+GRAPHIC=On
+LINE=Off
+ELLIPSE=Off
+RECT=Off
+DIAM=Off
+ARC=Off
+PIE=Off
+LEFTBRK=Off
+RIGHTBRK=Off
+BOTHBRK=Off
+POLYCLOS=Off
+SCALE=On
+CURSOR=On
+MEASUREH=On
+MEASUREV=On
+TAG=On
+PTAG=On
+TEXT=On
+PROPERTY=On
+START=On
+STOP=On
+PAUSE=On
+DATAPTS=On
+TOKENS=On
+RULER=On
+PLUS=On
+XAXIS=On
+YAXIS=On
+MINORLOG=On
+LOG25=On
+BASELINE=On
+HORIZCUR=On
+GOTOX=On
+GOTOY=On
+GOTOPERF=On
+GOTOBRNC=On
+CLEAR_ACCUMULATED=On
+NEXT=On
+NEXTIN=On
+PEAK=On
+VALLEY=On
+HIGH=On
+LOW=On
+INFLECTN=On
+GHIGH=On
+GLOW=On
+BOTTOM=On
+TOP=On
+WAVEFORMBUFFER=On
+AOUTPUT=On
+PKEY=On
+ENXSCALE=On
+ENYSCALE=On
+ZOOMIN=On
+ZOOMOUT=On
+AUTOSCALE=Off
+COLOR=On
+FONT=On
+SELNEXT=Off
+
+[G3D Default ToolBar]
+Pos=Top
+SELECT=On
+GRAPHIC=On
+LINE=Off
+ELLIPSE=Off
+RECT=Off
+DIAM=Off
+ARC=Off
+PIE=Off
+LEFTBRK=Off
+RIGHTBRK=Off
+BOTHBRK=Off
+POLYCLOS=Off
+CURSOR=On
+TEXT=On
+PROPERTY=On
+MINORLOG=On
+LOG25=On
+GOTOX=On
+GOTOY=On
+GOTOPERF=On
+NEXT=On
+NEXTIN=On
+PEAK=On
+VALLEY=On
+HIGH=On
+LOW=On
+INFLECTN=On
+GHIGH=On
+GLOW=On
+COLOR=On
+FONT=On
+SELNEXT=Off
+
+[PFM Default ToolBar]
+Pos=Top
+SELECT=On
+GRAPHIC=On
+LINE=Off
+ELLIPSE=Off
+RECT=Off
+DIAM=Off
+ARC=Off
+PIE=Off
+LEFTBRK=Off
+RIGHTBRK=Off
+BOTHBRK=Off
+POLYCLOS=Off
+SCALE=On
+CURSOR=On
+MEASUREH=On
+MEASUREV=On
+TAG=On
+PTAG=On
+TEXT=On
+PROPERTY=On
+DATAPTS=On
+TOKENS=On
+RULER=On
+PLUS=On
+XAXIS=On
+YAXIS=On
+MINORLOG=On
+LOG25=On
+BASELINE=On
+HORIZCUR=On
+GOTOX=On
+GOTOY=On
+GOTOPERF=On
+GOTOBRNC=On
+NEXT=On
+NEXTIN=On
+PEAK=On
+VALLEY=On
+HIGH=On
+LOW=On
+INFLECTN=On
+GHIGH=On
+GLOW=On
+ENXSCALE=On
+ENYSCALE=On
+ZOOMIN=On
+ZOOMOUT=On
+AUTOSCALE=Off
+COLOR=On
+FONT=On
+SELNEXT=Off
+
+[MCL Default ToolBar]
+Pos=Top
+SELECT=On
+GRAPHIC=On
+LINE=Off
+ELLIPSE=Off
+RECT=Off
+DIAM=Off
+ARC=Off
+PIE=Off
+LEFTBRK=Off
+RIGHTBRK=Off
+BOTHBRK=Off
+POLYCLOS=Off
+TEXT=On
+PROPERTY=On
+COLOR=On
+FONT=On
+MCSTATIS=On
+SELNEXT=Off
+
+[Tool Bitmaps]
+BITMAP_COLS=16
+BITMAP_ROWS=15
+BITMAP_NAME_1=Ground
+BITMAP_DATA_1=0,256,256,256,256,256,256,4064,0,1984,0,896,0,256,0
+BITMAP_NAME_2=Resistor
+BITMAP_DATA_2=0,0,0,0,0,4112,10280,115783,640,256,0,0,0,0,0
+BITMAP_NAME_3=Capacitor
+BITMAP_DATA_3=0,0,0,640,640,640,640,130815,640,640,640,640,0,0,0
+BITMAP_NAME_4=Inductor
+BITMAP_DATA_4=0,0,0,0,2184,5460,4644,25939,1360,544,0,0,0,0,0
+BITMAP_NAME_5=Diode
+BITMAP_DATA_5=0,0,0,1088,1216,1472,1984,65534,1984,1472,1216,1088,0,0,0
+BITMAP_NAME_6=NPN
+BITMAP_DATA_6=0,0,2112,1088,576,320,192,126,192,320,2624,3136,3648,0,0
+BITMAP_NAME_7=NMOS
+BITMAP_DATA_7=33024,33088,33088,65344,320,4416,6464,65407,6464,4416,320,65344,33088,33088,33024
+BITMAP_NAME_8=Opamp
+BITMAP_DATA_8=0,128,140,180,199,772,3076,61444,3076,772,199,180,140,128,0
+BITMAP_NAME_9=DClock
+BITMAP_DATA_9=0,0,0,8190,8193,12093,10533,59685,10533,10725,8193,8190,0,0,0
+BITMAP_NAME_10=Battery
+BITMAP_DATA_10=0,0,0,512,512,640,640,130815,640,640,512,512,0,0,0
+BITMAP_NAME_11=Current Source
+BITMAP_DATA_11=256,256,256,896,3424,2336,5008,6096,6096,2336,3424,896,256,256,256
+BITMAP_NAME_12=Voltage Source
+BITMAP_DATA_12=4352,14592,4352,896,3168,2080,4112,4112,4112,2080,3168,896,256,14592,256
+BITMAP_NAME_13=Fixed Digital
+BITMAP_DATA_13=0,896,1152,2176,2176,2176,1152,897,2,4,16376,4,2,1,0
+BITMAP_NAME_14=Fixed Analog
+BITMAP_DATA_14=0,512,1280,1280,2176,3968,2176,2177,2,4,16376,4,2,1,0
+BITMAP_NAME_15=NFV
+BITMAP_DATA_15=0,0,8734,16641,32897,41601,38017,34975,38017,41601,32897,16641,8705,0,0
+
+[Shortcuts]
+
+[Last Loaded Files]
+Max=10
+
+[Last Used Components]
+Max=10
+
+[Last Used Calculator Expressions]
+Max=10
+
+[Last Used Schematic Search Text]
+Max=10
+
+[Search Text]
+
+[Search Text]
+Whole Word=False
+All Text Pages=False
+
+[Last Used Text Area Search Text]
+Max=10
+
+[Last Used Text Area Replace Text]
+Max=10
+
+[Component Files]
+
+[Shape Files]
+
+[Package Files]
+
+[Probe]
+Analysis=Transient
+Trace=Many
+Save=VandI
+Separate=False
+Graph Group=0
+
+[Probe]
+Analysis=AC
+Trace=Many
+Save=VandI
+Separate=False
+Graph Group=0
+
+[Probe]
+Analysis=DC
+Trace=Many
+Save=VandI
+Separate=False
+Graph Group=0
+
+[Tip]
+Show=Yes
+Index=1
+
+[AttSettings]
+
+[AttStimSettings]
+
+[FindInFile]
+Definition=NULL
+Field=Text
+LookInSubfolders=False
+Types_Max=50
+Text_Max=50
+Paths_Max=50
+
+[Analog LED Types]
+Type_1=Yellow,2.0,0.015,.5,20p,#FFFF00
+Type_2=Green,2.1,0.015,.5,20p,#008000
+Type_3=Blue,3.4,0.012,.5,20p,#0000FF
+Type_4=Red,1.7,0.015,.5,20p,#FF0000
+
+[Master Style]
+
+[IBIS]
+Input File
+Output File
+
+[Path Groups]
+InitialPath=Defined
+Title="MC9"
+Data="E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\data\"
+Library="E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\library\"
+Picture="E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\data\"
+Document="E:\Distrib\08 Soft\Micro-Cap\Micro-Cap 9 Professional\MC9 CD-Contents\documents\"
+
+[Combinations]
+Format=3
+Create Report=True
+Fit To Standards Method=Combinations
+RES Maximum Error=0.1
+RES Maximum Parallel Elements=2
+RES Maximum Parts Count=5
+RES File
+IND Maximum Error=0.1
+IND Maximum Parallel Elements=2
+IND Maximum Parts Count=5
+IND File
+CAP Maximum Error=0.1
+CAP Maximum Series Elements=2
+CAP Maximum Parts Count=5
+CAP File
+
+[ToSpice]
+Transient=False
+AC=False
+DC=False
+TF=False
+SENS=False
+SpiceType=PSPICE
+Report=False
+.Options=False
+Expand SUBCKT=False
+Make SUBCKT=False
+Add To Nom.Lib=False
+Full Model Statements=False
+
+[CirAttChange]
+Sort=ascending
+Column=Part
+Rect=-1,-1,-1,-1

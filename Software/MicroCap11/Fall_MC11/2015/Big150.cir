@@ -1,0 +1,692 @@
+[Main]
+FileType=CIR
+Version=11.00
+Program=Micro-Cap
+Component Version=10.00
+Shape Version=11.00
+Screen=1920,1200
+MCAPVersion=11.0.0.9
+Key ID=727 169 337
+NLCnt=1
+TXCnt=0
+
+[shapedef]
+Name=Big150
+Block=16,-8,616,1192,0,150
+BlockLine="Line",0,0
+BlockLine="Line",0,16
+BlockLine="Line",0,32
+BlockLine="Line",0,48
+BlockLine="Line",0,64
+BlockLine="Line",0,80
+BlockLine="Line",0,96
+BlockLine="Line",0,112
+BlockLine="Line",0,128
+BlockLine="Line",0,144
+BlockLine="Line",0,160
+BlockLine="Line",0,176
+BlockLine="Line",0,192
+BlockLine="Line",0,208
+BlockLine="Line",0,224
+BlockLine="Line",0,240
+BlockLine="Line",0,256
+BlockLine="Line",0,272
+BlockLine="Line",0,288
+BlockLine="Line",0,304
+BlockLine="Line",0,320
+BlockLine="Line",0,336
+BlockLine="Line",0,352
+BlockLine="Line",0,368
+BlockLine="Line",0,384
+BlockLine="Line",0,400
+BlockLine="Line",0,416
+BlockLine="Line",0,432
+BlockLine="Line",0,448
+BlockLine="Line",0,464
+BlockLine="Line",0,480
+BlockLine="Line",0,496
+BlockLine="Line",0,512
+BlockLine="Line",0,528
+BlockLine="Line",0,544
+BlockLine="Line",0,560
+BlockLine="Line",0,576
+BlockLine="Line",0,592
+BlockLine="Line",0,608
+BlockLine="Line",0,624
+BlockLine="Line",0,640
+BlockLine="Line",0,656
+BlockLine="Line",0,672
+BlockLine="Line",0,688
+BlockLine="Line",0,704
+BlockLine="Line",0,720
+BlockLine="Line",0,736
+BlockLine="Line",0,752
+BlockLine="Line",0,768
+BlockLine="Line",0,784
+BlockLine="Line",0,800
+BlockLine="Line",0,816
+BlockLine="Line",0,832
+BlockLine="Line",0,848
+BlockLine="Line",0,864
+BlockLine="Line",0,880
+BlockLine="Line",0,896
+BlockLine="Line",0,912
+BlockLine="Line",0,928
+BlockLine="Line",0,944
+BlockLine="Line",0,960
+BlockLine="Line",0,976
+BlockLine="Line",0,992
+BlockLine="Line",0,1008
+BlockLine="Line",0,1024
+BlockLine="Line",0,1040
+BlockLine="Line",0,1056
+BlockLine="Line",0,1072
+BlockLine="Line",0,1088
+BlockLine="Line",0,1104
+BlockLine="Line",0,1120
+BlockLine="Line",0,1136
+BlockLine="Line",0,1152
+BlockLine="Line",0,1168
+BlockLine="Line",0,1184
+BlockLine="Line",632,0
+BlockLine="Line",632,16
+BlockLine="Line",632,32
+BlockLine="Line",632,48
+BlockLine="Line",632,64
+BlockLine="Line",632,80
+BlockLine="Line",632,96
+BlockLine="Line",632,112
+BlockLine="Line",632,128
+BlockLine="Line",632,144
+BlockLine="Line",632,160
+BlockLine="Line",632,176
+BlockLine="Line",632,192
+BlockLine="Line",632,208
+BlockLine="Line",632,224
+BlockLine="Line",632,240
+BlockLine="Line",632,256
+BlockLine="Line",632,272
+BlockLine="Line",632,288
+BlockLine="Line",632,304
+BlockLine="Line",632,320
+BlockLine="Line",632,336
+BlockLine="Line",632,352
+BlockLine="Line",632,368
+BlockLine="Line",632,384
+BlockLine="Line",632,400
+BlockLine="Line",632,416
+BlockLine="Line",632,432
+BlockLine="Line",632,448
+BlockLine="Line",632,464
+BlockLine="Line",632,480
+BlockLine="Line",632,496
+BlockLine="Line",632,512
+BlockLine="Line",632,528
+BlockLine="Line",632,544
+BlockLine="Line",632,560
+BlockLine="Line",632,576
+BlockLine="Line",632,592
+BlockLine="Line",632,608
+BlockLine="Line",632,624
+BlockLine="Line",632,640
+BlockLine="Line",632,656
+BlockLine="Line",632,672
+BlockLine="Line",632,688
+BlockLine="Line",632,704
+BlockLine="Line",632,720
+BlockLine="Line",632,736
+BlockLine="Line",632,752
+BlockLine="Line",632,768
+BlockLine="Line",632,784
+BlockLine="Line",632,800
+BlockLine="Line",632,816
+BlockLine="Line",632,832
+BlockLine="Line",632,848
+BlockLine="Line",632,864
+BlockLine="Line",632,880
+BlockLine="Line",632,896
+BlockLine="Line",632,912
+BlockLine="Line",632,928
+BlockLine="Line",632,944
+BlockLine="Line",632,960
+BlockLine="Line",632,976
+BlockLine="Line",632,992
+BlockLine="Line",632,1008
+BlockLine="Line",632,1024
+BlockLine="Line",632,1040
+BlockLine="Line",632,1056
+BlockLine="Line",632,1072
+BlockLine="Line",632,1088
+BlockLine="Line",632,1104
+BlockLine="Line",632,1120
+BlockLine="Line",632,1136
+BlockLine="Line",632,1152
+BlockLine="Line",632,1168
+BlockLine="Line",632,1184
+FColor=None
+
+[compdef]
+Name=BIG150
+Definition=Subckt
+Shape=Big150
+Mask=4096
+Used=5
+Label Offset=0,0,0,0
+PinCnt=150
+Pin="D1",a,0,0
+Pin="D2",a,0,2
+Pin="D3",a,0,4
+Pin="EA",a,0,6
+Pin="EB",a,0,8
+Pin="OA",a,0,10
+Pin="B",a,0,12
+Pin="8",a,0,14
+Pin="9",a,0,16
+Pin="10",a,0,18
+Pin="11",a,0,20
+Pin="12",a,0,22
+Pin="13",a,0,24
+Pin="14",a,0,26
+Pin="15",a,0,28
+Pin="16",a,0,30
+Pin="17",a,0,32
+Pin="18",a,0,34
+Pin="19",a,0,36
+Pin="20",a,0,38
+Pin="21",a,0,40
+Pin="22",a,0,42
+Pin="23",a,0,44
+Pin="24",a,0,46
+Pin="25",a,0,48
+Pin="26",a,0,50
+Pin="27",a,0,52
+Pin="28",a,0,54
+Pin="29",a,0,56
+Pin="30",a,0,58
+Pin="31",a,0,60
+Pin="32",a,0,62
+Pin="33",a,0,64
+Pin="34",a,0,66
+Pin="35",a,0,68
+Pin="36",a,0,70
+Pin="37",a,0,72
+Pin="38",a,0,74
+Pin="39",a,0,76
+Pin="40",a,0,78
+Pin="41",a,0,80
+Pin="42",a,0,82
+Pin="43",a,0,84
+Pin="44",a,0,86
+Pin="45",a,0,88
+Pin="46",a,0,90
+Pin="47",a,0,92
+Pin="48",a,0,94
+Pin="49",a,0,96
+Pin="50",a,0,98
+Pin="51",a,0,100
+Pin="52",a,0,102
+Pin="53",a,0,104
+Pin="54",a,0,106
+Pin="55",a,0,108
+Pin="56",a,0,110
+Pin="57",a,0,112
+Pin="58",a,0,114
+Pin="59",a,0,116
+Pin="60",a,0,118
+Pin="61",a,0,120
+Pin="62",a,0,122
+Pin="63",a,0,124
+Pin="64",a,0,126
+Pin="65",a,0,128
+Pin="66",a,0,130
+Pin="67",a,0,132
+Pin="68",a,0,134
+Pin="69",a,0,136
+Pin="70",a,0,138
+Pin="71",a,0,140
+Pin="72",a,0,142
+Pin="73",a,0,144
+Pin="74",a,0,146
+Pin="75",a,0,148
+Pin="76",a,79,0
+Pin="77",a,79,2
+Pin="78",a,79,4
+Pin="79",a,79,6
+Pin="80",a,79,8
+Pin="81",a,79,10
+Pin="82",a,79,12
+Pin="83",a,79,14
+Pin="84",a,79,16
+Pin="85",a,79,18
+Pin="86",a,79,20
+Pin="87",a,79,22
+Pin="88",a,79,24
+Pin="89",a,79,26
+Pin="90",a,79,28
+Pin="91",a,79,30
+Pin="92",a,79,32
+Pin="93",a,79,34
+Pin="94",a,79,36
+Pin="95",a,79,38
+Pin="96",a,79,40
+Pin="97",a,79,42
+Pin="98",a,79,44
+Pin="99",a,79,46
+Pin="100",a,79,48
+Pin="101",a,79,50
+Pin="102",a,79,52
+Pin="103",a,79,54
+Pin="104",a,79,56
+Pin="105",a,79,58
+Pin="106",a,79,60
+Pin="107",a,79,62
+Pin="108",a,79,64
+Pin="109",a,79,66
+Pin="110",a,79,68
+Pin="111",a,79,70
+Pin="112",a,79,72
+Pin="113",a,79,74
+Pin="114",a,79,76
+Pin="115",a,79,78
+Pin="116",a,79,80
+Pin="117",a,79,82
+Pin="118",a,79,84
+Pin="119",a,79,86
+Pin="120",a,79,88
+Pin="121",a,79,90
+Pin="122",a,79,92
+Pin="123",a,79,94
+Pin="124",a,79,96
+Pin="125",a,79,98
+Pin="126",a,79,100
+Pin="127",a,79,102
+Pin="128",a,79,104
+Pin="129",a,79,106
+Pin="130",a,79,108
+Pin="131",a,79,110
+Pin="132",a,79,112
+Pin="133",a,79,114
+Pin="134",a,79,116
+Pin="135",a,79,118
+Pin="136",a,79,120
+Pin="137",a,79,122
+Pin="138",a,79,124
+Pin="139",a,79,126
+Pin="140",a,79,128
+Pin="141",a,79,130
+Pin="142",a,79,132
+Pin="143",a,79,134
+Pin="144",a,79,136
+Pin="145",a,79,138
+Pin="146",a,79,140
+Pin="147",a,79,142
+Pin="148",a,79,144
+Pin="149",a,79,146
+Pin="150",a,79,148
+
+[Circuit]
+Window Placement=2,3, -1,-1, -4,-30, 242,319,1689,1021
+Default Object=Color=#000080
+Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
+Default Object Apply Border To Text=No
+Default Object Apply Fill To Text=No
+NodeVoltageFormat=3
+PathDelayFormat=3
+WarningFormat=3
+GridTextFormulaFormat=3
+SpiceType=AMBIGUOUS
+Title_Block_Border=None
+Title_Block=False
+Show Nodes=False
+Show Voltages=False
+Show Current=False
+Show Power=False
+Show Condition=False
+Show Pin Connections=False
+Show Connection Warnings=False
+Show Cross=False
+Show Attribute Text=True
+Show Grid Text=True
+
+[Comp]
+Name=BIG150
+Style=ShowPinText
+Px=184,96
+
+[Attr]
+ON=281,19,PART
+V=X1
+Style=8192
+
+[Attr]
+ON=265,64,NAME
+V=BIG150
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Schematic]
+CurrentSection 0=0
+CurrentSection 1=0
+CurrentSection 2=0
+CurrentSection 3=0
+Splitter.xs=0
+Splitter.ys=0
+TextQuad=4099
+Scale=0.66666666666666663
+GridUser=10
+ShapeGroups="Main","Euro","Polarity","Main1","Main11","Main2","Main12","Main111","Main1111","Main11111","Main21","Electrolytic","GroundArrow","Main111111","Main1111111","Main11111111","Main111111111","Main1111111111","Main11111111111","DeMorgan"
+CalcRMS=False
+CalcAVG=False
+CalcPeak=False
+CalcVoltage=True
+DisplayMeasure=Last
+ShareScales=True
+
+[Tools]
+Pos=Top
+FILESAVEASOLD=No
+BOM=No
+FILEPCB=No
+PROBE=Yes
+SELECT=Yes
+COMP=Yes
+TEXT=Yes
+WIRE=Yes
+WIRED=Yes
+BUS=Yes
+GRAPHIC=Yes
+LINE=No
+ELLIPSE=No
+RECT=No
+DIAM=No
+ARC=No
+PIE=No
+LEFTBRK=No
+RIGHTBRK=No
+BOTHBRK=No
+META=Yes
+FLAG=Yes
+INFO=Yes
+HELP=Yes
+HELP_SPICE=No
+LINK=Yes
+REGION_ENABLE=Yes
+TITLE_BLOCK=Yes
+DIGTRC=No
+DIGTRC2=No
+BUILD_COMMAND=Yes
+DIGALL=No
+GRIDTEXT=Yes
+COMPTEXT=Yes
+NODE=Yes
+MEASURED=Yes
+NODEV=Yes
+CURRENT=Yes
+POWER=Yes
+CONDITIN=Yes
+PIN=Yes
+CONNWARN=Yes
+CROSS=Yes
+GRID=Yes
+BORDER=Yes
+BORDERONE=Yes
+TITLE=Yes
+RUBBER=Yes
+PROPERTY=Yes
+STEP=Yes
+MIRROR=Yes
+ROTATE=Yes
+FLIPY=Yes
+FLIPX=Yes
+CIR_MAKEMACRO=No
+CLEARCUTWIRE=No
+CLIPBOARDCIRPAGE2BMM=No
+FINDCOMP=Yes
+FIND=Yes
+REPEAT=No
+REPLACE=No
+MODEL=Yes
+CIR2CKT=Yes
+ATTDISP=Yes
+ENABLE=Yes
+DISABLE=Yes
+TOFRONT=Yes
+TOBACK=Yes
+SELNEXT=Yes
+PAGEADD=Yes
+PAGEADDTEXT=No
+ADDSECTION=No
+PAGEDEL=Yes
+ZOOMIN=Yes
+ZOOMOUT=Yes
+AUTOSCALECIR=Yes
+GOTOFLAG=Yes
+UPLEVEL=Yes
+COLOR=Yes
+FONT=Yes
+DM_LAST=No
+DM_RMS=No
+DM_AVG=No
+DM_PEAK=No
+GRID_NONE=No
+GRID_NORMAL=No
+GRID_BOLD_5=No
+GRID_BOLD_6=No
+GRID_BOLD_USER=No
+GRAPH_PAPER=No
+SPLITCIRTEXTH=No
+SPLITCIRTEXTV=No
+SPACE_SPLITTERS_EVENLY=No
+NORMALCIR=No
+RENAMEDEFINE=No
+RENAMECMP=No
+ATTALIGN=No
+RESETNODEPOS=No
+FIT2STANDARD=No
+NODESNAP=No
+MOVETEXT=No
+TEXTINC=No
+TOGGLETEXT=No
+TOGGLEMODE=No
+TOLERANCE=No
+ALIGNLEFT=Yes
+ALIGNRIGHT=Yes
+ALIGNTOP=Yes
+ALIGNBOTTOM=Yes
+
+[Section]
+Index=0
+Name="circuit4"
+Type=Main
+Enable=True
+CurrentPage 0=0
+CurrentPage 1=0
+CurrentPage 2=0
+CurrentPage 3=0
+TabSize 0=425
+TabSize 1=425
+TabSize 2=425
+TabSize 3=425
+
+[Page]
+Index=0
+Section=0
+Print=True
+Enable=True
+Name=Main
+PrinterScale=1
+Scale 0=1
+Scale 1=1
+Scale 2=1
+SB 3=101,0
+Scale 3=0.66666666666666663
+Px=1016,192
+WinBackGround Color=#FFFFFF
+Select Color=#FF0000
+Anchor Color=#000000
+Select Box Color=#000080
+Grid Text Color=Height=-12,FStyle=0,Color=#0000FF,Name=Verdana
+Grid Text RTF=False
+Grid Text GridSnap=True
+Grid Text PinIt=False
+Grid Text JustifyH=Left
+Grid Text JustifyV=Bottom
+Component Color=#0000FF
+Attribute Text=Height=-12,FStyle=0,Color=#008000,Name=Verdana
+Wire Color=#008000
+Bus Color=#008000
+Pin Connection=Height=-10,FStyle=0,Color=#FF0000,Name=Arial
+Pin Marker Color=#008000
+Node Number=Height=-11,FStyle=0,Color=#FF00FF,Name=Arial
+Node Voltage Color=Height=-11,FStyle=0,Color=#000000,Name=Arial
+Dynamic AC Voltage Color=#E4E4E4
+Text Banner Text=Height=-15,FStyle=0,Color=#800000,Name=Arial
+Title Block Background=#C0C0C0
+Current=Height=-11,FStyle=0,Color=#0000FF,Name=Arial
+Power/Condition=Height=-11,FStyle=0,Color=#FF0000,Name=Arial
+Digital Path Color=#FF0000
+Title Block Border=#000000
+Disabled	Color=#C0C0C0
+Search Color=#FFFF00
+Grid Color=#000000
+Graph Paper=#E4E4E4
+Digital 0 Color=#000000
+Digital R Color=#FFFF00
+Digital F Color=#FFFF00
+Digital 1 Color=#FF0000
+Digital X Color=#C0C0C0
+Digital Z Color=#808080
+Block Select Color=#51F998
+
+[Page]
+Index=1
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Text
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+WinBackGround Color=#FFFFFF
+Disabled	Color=#C0C0C0
+KeyWord Color=#0000FF
+Error	Color=#FF0000
+Search Color=#FFFF00
+
+[Page]
+Index=2
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Models
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+WinBackGround Color=#FFFFFF
+Disabled	Color=#C0C0C0
+KeyWord Color=#0000FF
+Error	Color=#FF0000
+Search Color=#FFFF00
+
+[Page]
+Index=3
+Section=0
+Type=Info
+Print=False
+Enable=True
+Name=Info
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+WinBackGround Color=#FFFFFF
+Disabled	Color=#C0C0C0
+KeyWord Color=#0000FF
+Error	Color=#FF0000
+Search Color=#FFFF00
+
+[Text Area]
+Section=0
+Page=1
+
+[Text Area]
+Section=0
+Page=2
+
+[InfoPage]
+InfoPage=True
+Warnings=True
+System=True
+Defines=True
+Array=True
+Model=True
+Measure=True
+MacroSubckt=True
+NotUsed=True
+ComponentCounts=True
+
+[Limits]
+Analysis=DynamicAC
+FirstValueDisplay=Mag
+SecondValueDisplay=PhaseDeg
+PlaceText=True
+
+[Limits]
+Analysis=DynamicDC
+PlaceText=True
+
+[Pane]
+Analysis=Transient
+
+[Pane]
+Analysis=AC
+
+[Pane]
+Analysis=DC
+
+[Pane]
+Analysis=HmDistortion
+
+[Pane]
+Analysis=ImDistortion
+
+[Pane]
+Analysis=Stability
+
+[WCTolerance]
+Var Width=100
+Nominal Width=72
+Tol Width=152
+
+[OPMethods]
+Analysis=Transient
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=AC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=DC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=Stability
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0

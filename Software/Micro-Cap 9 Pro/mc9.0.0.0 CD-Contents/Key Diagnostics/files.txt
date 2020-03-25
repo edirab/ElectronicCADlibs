@@ -1,0 +1,14 @@
+
+AKSDIAG  	EXE            Aladdin HASP/Hardlock Diagnostic Win32 executable
+AKSDIAG  	HLP            Aladdin HASP/Hardlock Diagnostic help file
+AKSDIAG_GE	HLP	       Aladdin HASP/Hardlock Diagnostic German help file
+AKSDIAG_DE	DLL	       Aladdin HASP/HardlockDiagnost German resources DLL
+
+NDIAG16  	EXE            Diagnostic helper program (W16)
+NDIAG32  	EXE            Diagnostic helper program (W32)
+NDIAGDOS 	EXE            Diagnostic helper program (DOS)
+
+USBREADY 	EXE            Utility that checks USB capability of the OS.
+
+INSTALL\AKSDIAG.EXE   	       Installation Utility for Aladdin Diagnostic
+

@@ -1,0 +1,471 @@
+*                     Å®ØÆ´Ô‡≠Î• ‚‡†≠ß®·‚Æ‡Î
+*
+*    p-n-p       ≥     n-p-n       ≥    p-n-p       ≥   n-p-n
+*ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ≈ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ≈ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ≈ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+*2í202Ä, Å, Ç, É ≥2í215Ä, Å, Ç, É  ≥äí208ä          ≥
+*2í203Ñ          ≥2T312A, Å, B     ≥äí351Ä          ≥
+*2í214Ä, Å, Ç, É ≥2í315Ä, Ö, Ñ, à  ≥äí363Ä          ≥
+*2í313Å          ≥2í316Å, Ñ        ≥äí364Ä, Å, Ç    ≥
+*2í326Å          ≥2í324Ä, Å, Ç,    ≥äí375Ä, Å       ≥
+*2í360Ä, Å, É    ≥        É, Ñ, Ö  ≥íë3103Ä-1,      ≥äí312Å
+*2í363Å          ≥2í325Å           ≥äí3107Ä,Å,Ç,É,  ≥
+*2í364Ä-2, Å-2   ≥2í354Ä           ≥  Ñ,Ö,ÉÖ,à,ä,ã  ≥äí315Ä,Å,Ç,É,
+*     Ç-2        ≥2í355Ä           ≥                ≥  Ñ,Ö,ÉÖ,à
+*2í370Ä-1        ≥2í368Å           ≥äí830Ä, Å, Ç, É ≥äí316b
+*2í3107Ä, Ö, à, ä≥2í371Ä           ≥                ≥äí385Äå-2
+*2í3108Ä, Å, Ç   ≥2í384AM-2        ≥äí836Ä, Å, Ç    ≥äí399Ä
+*2í626Ä          ≥2í385Ä           ≥                ≥äí3102Ä, Å, Åå,
+*2í632Ä          ≥2í388Ä           ≥                ≥          Ç, É, Ö
+*2í639Å          ≥2í397            ≥                ≥äí3117Ä
+*2í644Å          ≥2í399Ä           ≥                ≥äí608Ä, Å
+*2í708           ≥2í3102Ä, Å, Ö    ≥                ≥äí630Ä, Å, Ç,
+*2í709           ≥2í3117Ä          ≥                ≥       É, Ñ, Ö
+*2í818Ä          ≥2í504            ≥                ≥äí635Å
+*2í825Ä          ≥2í505            ≥                ≥äí642Ä-2
+*2í830Ä          ≥2í602Ä, Å        ≥                ≥äí653Å
+*                ≥2í625Ä, Å        ≥                ≥äí815É
+*                ≥2í629Ä           ≥                ≥äí819Ä, Å, Ç
+*                ≥2í630Ä, Å, Ç,    ≥                ≥äí831Ä, Å, Ç
+*                ≥        É, Ñ     ≥                ≥äí841Ä
+*                ≥2í638Ä           ≥                ≥äí847Ä
+*                ≥2í646Ä           ≥                ≥äí866Ä
+*                ≥2í819Ä, Å, Ç, É  ≥                ≥äí880Ä
+*                ≥2í827Ä           ≥                ≥äí926Ä
+*                ≥2í831Ä           ≥                ≥
+*                ≥2í921Ä           ≥                ≥
+*                ≥2T939A           ≥                ≥
+*
+
+
+*---------------------------------   2T215 -----------------------
+.model 2T215A  NPN  (Is=67.34f  Xti=3  Eg=1.11 Vaf=80 Bf=20 Ne=1.5
++   Ise=1u Ikf=50e-3 Xtb=1.5 Br=1 Nc=2  Isc=1u Ikr=0  Rc=0  Cjc=12p
++   Vjc=.75   Mjc=.333   Fc=.5  Cje=9.8p  Vje=.75  Mje=.333  Tr=10n
++   Tf=158.8n Itf=0 Vtf=0 Xtf=0)
+.model 2T215B  NPN  (Is=67.34f  Xti=3  Eg=1.11 Vaf=80 Bf=60 Ne=1.5
++   Ise=1u Ikf=50e-3 Xtb=1.5 Br=1 Nc=2 Isc=1u Ikr=0  Rc=0   Cjc=12p
++   Vjc=.75   Mjc=.333   Fc=.5  Cje=9.8p  Vje=.75  Mje=.333  Tr=10n
++   Tf=158.8n Itf=0 Vtf=0 Xtf=0)
+.model 2T215V  NPN  (Is=67.34f  Xti=3  Eg=1.11 Vaf=80 Bf=90 Ne=1.5
++  Ise=1u Ikf=50e-3 Xtb=1.5 Br=1 Nc=2  Isc=1u  Ikr=0  Rc=0  Cjc=12p
++  Vjc=.75   Mjc=.333  Fc=.5   Cje=9.8p   Vje=.75  Mje=.333  Tr=10n
++  Tf=158.8n)
+.model 2T215G  NPN  (Is=67.34f  Xti=3  Eg=1.11 Vaf=80 Bf=85 Ne=1.5
++   Ise=1u Ikf=50e-3 Xtb=1.5 Br=1 Nc=2 Isc=1u  Ikr=0  Rc=0  Cjc=12p
++   Vjc=.75 Mjc=.333   Fc=.5   Cje=9.8p   Vje=.75  Mje=.333  Tr=10n
++   Tf=158.8n)
+*---------------------------------  2T312 -----------------------
+.model 2t312a  NPN  (Is=21f  Xti=3  Eg=1.11   Vaf=126.2   Bf=86.76
++   Ise=189f Ne=1.328   Ikf=.164   Nk=.5  Xtb=1.5  Br=1  Isc=66.74f
++   Nc=1.385 Ikr=1.812  Rb=300  Rc=.897  Cjc=8.4p Mjc=.29  Vjc=.692
++   Fc=.5 Cje=26.53p Mje=.333 Vje=.75 Tr=10n Tf=1.743n Itf=1)
+.model 2t312b  NPN  (Is=45.5f  Xti=3  Eg=1.11  Vaf=74.83  Bf=183.1
++   Ise=689.3f Ne=1.383 Ikf=.1528  Nk=.5  Xtb=1.5  Br=1  Isc=1.136p
++   Nc=1.469 Ikr=2.026  Rc=.5361   Cjc=8.12p   Mjc=.2448  Vjc=.2799
++   Fc=.5  Cje=26.53p  Mje=.3333  Vje=.75   Tr=10n  Tf=1.086n Itf=1
++   Rb=260 Vtf=10)
+.model 2t312v   NPN   (Is=21f  Xti=3  Eg=1.11  Vaf=66.45  Bf=141.3
++   Ise=455f Ne=1.478    Ikf=2.56  Nk=.5  Xtb=1.5  Br=1  Isc=524.1f
++   Nc=1.469 Ikr=2.026 Rc=.5361 Cjc=8.029p Mjc=.3063 Vjc=.9377 Fc=.5
++   Cje=26.53p Rb=300 Mje=.33 Vje=.75 Tr=10n Tf=1.09n Itf=1 Vtf=10)
+*---------------------------------  KT312Å -----------------------
+.model KT312B  NPN  (Is=23.68f  Xti=3 Eg=1.11 Vaf=60 Bf=60 Ne=1.206
++   Ise=23.68f Ikf=.05 Xtb=1.5  Br=4.387  Nc=1.8  Isc=900p  Ikr=40m
++   Rc=20 Cjc=7p Vjc=.7 Mjc=.333 Fc=.5  Cje=25p   Vje=.7   Mje=.333
++   Tr=130.5n Tf=1n Itf=40m Vtf=70 Xtf=1.1)
+
+*--------------------------------- 2T315 -------------------------
+.model 2T315A NPN (Is=23.68f Xti=3 Eg=1.11 Vaf=60 Bf=108  Ne=1.206
++   Ise=23.68f Ikf=.1224 Xtb=1.5 Br=4.387G Nc=1.8  Isc=900p Ikr=20m
++   Rc=5  Cjc=7p  Vjc=.7  Mjc=.333  Fc=.5  Cje=10p  Vje=.7 Mje=.333
++   Tr=130.5n Tf=1n Itf=40m Vtf=80 Xtf=1.1)
+.model 2T315E NPN (Is=23.68f Xti=3 Eg=1.11 Vaf=60 Bf=230  Ne=1.206
++   Ise=23.68f Ikf=.1224 Xtb=1.5 Br=4.387G Nc=1.8  Isc=900p Ikr=20m
++   Rc=5 Cjc=7p Vjc=.7 Mjc=.3333  Fc=.5  Cje=10p  Vje=.7  Mje=.3333
++   Tr=130.5n Tf=1n Itf=40m Vtf=80 Xtf=1.1)
+.model 2T315D NPN (Is=23.68f Xti=3 Eg=1.11 Vaf=60  Bf=70  Ne=1.206
++   Ise=23.68f Ikf=.1224 Xtb=1.5 Br=4.387G Nc=1.8 Isc=900p  Ikr=20m
++   Rc=5 Cjc=7p Vjc=.7 Mjc=.3333  Fc=.5  Cje=10p  Vje=.7  Mje=.3333
++   Tr=130.5n Tf=1n Itf=40m Vtf=80 Xtf=1.1)
+.model 2T315g NPN (Is=23.68f Xti=3 Eg=1.11 Vaf=60  Bf=50  Ne=1.206
++   Ise=23.68f Ikf=.1224 Xtb=1.5 Br=4.387G Nc=1.8  Isc=900p Ikr=20m
++   Rc=5 Cjc=7p Vjc=.7 Mjc=.3333  Fc=.5  Cje=10p  Vje=.7  Mje=.3333
++   Tr=130.5n Tf=1n Itf=40m Vtf=80 Xtf=1.1)
+*-------------------------------- äí315 -------------------------
+.model kt315a  NPN  (Is=2.82f Xti=3 Eg=1.11 Vaf=3.32K Bf=55 Ne=2.35
++   Ise=554.1p Ikf=18.04m Xtb=1.5  Br=.6455  Nc=2  Isc=0 Ikr=0 Rc=0
++   Cjc=17p  Vjc=.75  Mjc=.333  Fc=.5  Cje=8.55p  Vje=.75  Mje=.333
++   Tr=3.36u Tf=1.02n Itf=0 Vtf=0 Xtf=0)
+.model KT315B  NPN  (IS=10e-15  ISE=100nA  NE=4 ISC=100nA NC=4 BF=3
++   IKF=.1A  VAF=40  CJC=7pF  CJE=7pF  RB=3  RE=.5  RC=.2  TF=0.5ns
++   TR=170ns  KF=4E-15 AF=1)
+.model KT315V NPN (IS=10e-15 ISE=100nA NE=4  ISC=100nA  NC=4  BF=90
++   IKF=.1A VAF=60  CJC=7pF  CJE=7pF  RB=3  RE=.5   RC=.2  TF=0.5ns
++   TR=170ns KF=4e-15 AF=1)
+.model KT315G  NPN  (IS=10e-15 ISE=100nA NE=4 ISC=100nA NC=4 BF=350
++   IKF=.1A VAF=55  CJC=7pF   CJE=7pF  RB=3  RE=.5  RC=.2  TF=0.5ns
++   TR=170ns KF=4E-15 AF=1)
+.model KT315D NPN (IS=10e-15 ISE=100nA NE=4  ISC=100nA  NC=4  BF=90
++   IKF=.1A VAF=60 CJC=7pF CJE=7pF RB=3 RE=.5 RC=.2 TF=1ns TR=170ns
++   KF=4e-15 AF=1)
+.model KT315E  NPN  (IS=10e-15 ISE=100nA NE=4 ISC=100nA NC=4 BF=350
++   IKF=.1A VAF=55 CJC=7pF CJE=7pF RB=3 RE=.5 RC=.2 TF=1ns TR=170ns
++   KF=4e-15 AF=1)
+.model KT315GE NPN (IS=10e-15 ISE=100nA NE=4 ISC=100nA NC=4  BF=250
++   IKF=.05A VAF=35 CJC=7pF CJE=7pF RB=3 RE=.5 RC=.2 TF=1ns TR=170n
++   KF=4e-15 AF=1)
+.model KT315I  NPN  (IS=10e-15  ISE=100nA NE=4 ISC=100nA NC=4 BF=50
++   IKF=.05A  VAF=80  CJC=7pF  CJE=7pF  RB=3  RE=.5 RC=.2  TF=0.8ns
++   TR=170ns KF=4e-15 AF=1)
+*--------------------------------- 2í316 -----------------------
+.model 2t316b   NPN   (Is=3.49f  Xti=3  Eg=1.11  Vaf=102  Bf=74.97
++   Ne=1.483 Ise=44.72f  Ikf=.1322  Xtb=1.5  Var=55  Br=.2866  Nc=2
++   Isc=447f Ikr=.254 Rb=66.7 Rc=7.33  Cjc=3.934p  Vjc=.65  Mjc=.33
++   Fc=.5 Cje=1.16p Vje=.69  Mje=.33  Tr=65.92n  Tf=94.42p  Itf=.15
++   Vtf=15 Xtf=2)
+.model 2t316d NPN (Is=2.75f Xti=3 Eg=1.11 Vaf=96 Bf=136.5 Ne=2.496
++   Ise=12.8p Ikf=97.23m Xtb=1.5  Var=55  Br=.6577  Nc=2  Isc=15.5p
++   Ikr=.12 Rb=70.6  Rc=8.35   Cjc=4.09p   Vjc=.65   Mjc=.33  Fc=.5
++   Cje=1.16p Vje=.69 Mje=.33 Tr=27.84n Tf=78.97p  Itf=.151  Vtf=25
++   Xtf=2)
+*-------------------------------- äí316Ñ -----------------------
+.model kt316d  NPN (Is=2.75p Xti=3 Eg=1.11 Vaf=96 Bf=136.5 Ne=2.496
++   Ise=12.8p Ikf=97.23m Xtb=1.5  Var=55  Br=.66   Nc=2   Isc=15.5p
++   Ikr=.12 Rb=70.6 Rc=8.4  Cjc=4.1p  Vjc=.65 Mjc=.33 Fc=.5 Vje=.69
++   Cje=1.16p Mje=.33 Tr=27.8n Tf=79p Itf=.151 Vtf=25 Xtf=2)
+*--------------------------------- 2T324 -----------------------
+.model 2T324A NPN (Is=29.51e-18 Xti=3 Eg=1.11 Vaf=40 Bf=100 Ne=1.5
++   Ise=500n Ikf=20e-3  Xtb=1.5   Br=1  Nc=2  Isc=500n  Ikr=0  Rc=0
++   Cjc=2.5p Vjc=.75 Mjc=.333 Fc=.5 Cje=2.5p Vje=.75 Mje=.333 Tr=1n
++   Tf=167.3p Itf=0 Vtf=0 Xtf=0)
+.model 2T324B NPN (Is=29.51e-18 Xti=3 Eg=1.11 Vaf=40 Bf=200 Ne=1.5
++   Ise=500n Ikf=20e-3  Xtb=1.5   Br=1  Nc=2  Isc=500n  Ikr=0  Rc=0
++   Cjc=2.5p Vjc=.75 Mjc=.333 Fc=.5 Cje=2.5p Vje=.75 Mje=.333 Tr=1n
++   Tf=167.3p Itf=0 Vtf=0 Xtf=0)
+.model 2T324V NPN (Is=29.51e-18 Xti=3 Eg=1.11 Vaf=40 Bf=400 Ne=1.5
++   Ise=500n Ikf=20e-3  Xtb=1.5   Br=1  Nc=2  Isc=500n  Ikr=0  Rc=0
++   Cjc=2.5p Vjc=.75 Mjc=.333 Fc=.5 Cje=2.5p Vje=.75 Mje=.333 Tr=1n
++   Tf=167.3p Itf=0 Vtf=0 Xtf=0)
+.model 2T324G NPN (Is=29.51e-18 Xti=3 Eg=1.11 Vaf=40 Bf=180 Ne=1.5
++   Ise=500n Ikf=20e-3  Xtb=1.5   Br=1  Nc=2  Isc=500n  Ikr=0  Rc=0
++   Cjc=2.5p Vjc=.75 Mjc=.333 Fc=.5 Cje=2.5p Vje=.75 Mje=.333 Tr=1n
++   Tf=167.3p Itf=0 Vtf=0 Xtf=0)
+.model 2T324D NPN (Is=29.51e-18 Xti=3 Eg=1.11 Vaf=40 Bf=140 Ne=1.5
++   Ise=500n Ikf=20e-3  Xtb=1.5   Br=1  Nc=2  Isc=500n  Ikr=0  Rc=0
++   Cjc=2.5p Vjc=.75 Mjc=.333 Fc=.5 Cje=2.5p Vje=.75 Mje=.333 Tr=1n
++   Tf=167.3p Itf=0 Vtf=0 Xtf=0)
+.model 2T324E NPN (Is=29.51e-18 Xti=3 Eg=1.11 Vaf=40 Bf=380 Ne=1.5
++   Ise=500n Ikf=20E-3  Xtb=1.5   Br=1  Nc=2  Isc=500n  Ikr=0  Rc=0
++   Cjc=2.5p Vjc=.75  Mjc=.333  Fc=.5  Cje=2.5p  Vje=.75   Mje=.333
++   Tr=1n Tf=167.3p Itf=0 Vtf=0 Xtf=0)
+*--------------------------------- 2T325B ----------------------
+.model 2T325B NPN (Is=49.6f Xti=3 Eg=1.11 Vaf=70 Bf=313.5 Ne=1.358
++   Ise=49.56f Ikf=.135 Xtb=1.5 Br=4  Nc=2 Isc=100p  Ikr=20m  Rc=20
++   Cjc=2.5p Vjc=.72  Mjc=.333   Fc=.5  Cje=2.5p  Vje=.75  Mje=.333
++   Tr=250p Tf=516.5p Itf=0 Vtf=0 Xtf=0)
+
+*-------------------------------- 2T354 ------------------------
+.model 2T354 NPN (Is=316.7f  Xti=3  Eg=1.11  Vaf=40  Bf=20  Ne=1.5
++   Ise=500n Ikf=10e-3 Xtb=1.5  Br=1  Nc=2  Isc=500n   Ikr=0   Rc=0
++   Cjc=1.2p Vjc=.75 Mjc=.333 Fc=.5 Cje=1.2p Vje=.75 Mje=.333 Tr=1n
++   Tf=516.9p Itf=0 Vtf=0 Xtf=0)
+*-------------------------------- 2í355Ä -----------------------
+.model 2t355a  NPN  (Is=14.02f  Xti=3  Eg=1.11  Vaf=82.35 Bf=172.2
++   Ne=2.21 Xtf=2 Ise=9.573p  Ikf=.281  Xtb=1.5 Var=45 Br=.864 Nc=2
++   Isc=1.12p Ikr=.253 Rb=41.6 Rc=3.55  Cjc=2.74p  Vjc=.75  Mjc=.33
++   Fc=.5 Cje=2.64p  Vje=.69 Mje=.33  Tr=76.29n  Tf=65.28p Itf=.532
++   Vtf=15)
+
+*-------------------------------   2T368A ------------------------
+.model 2t368b  NPN  (Is=8.675f  Xti=3  Eg=1.11  Vaf=108   Bf=325.3
++   Ne=1.377 Ise=9.128f  Ikf=.3608   Xtb=1.5  Var=56  Br=1.45  Nc=2
++   Isc=16.3f Ikr=.125 Rb=31.5 Rc=2.445 Cjc=2.35p  Vjc=.75  Mjc=.33
++   Fc=.5 Cje=2.786p Vje=.69  Mje=.37  Tr=2.147n  Tf=84.62p Itf=.15
++   Vtf=25 Xtf=2)
+
+*-------------------------------   2í371Ä ------------------------
+.model 2t371a  NPN  (Is=1.378f  Xti=3  Eg=1.11  Vaf=68.25   Bf=236
++   Ne=1.479 Ise=43.8f  Ikf=.1777   Xtb=1.5  Var=45  Br=3.414  Nc=2
++   Isc=55f Ikr=35m Rb=44.1 Rc=2.8 Cjc=1.932p Vjc=.75 Mjc=.33 Fc=.5
++   Cje=1.747p Vje=.69 Mje=.33  Tr=13.65n  Tf=43.78p Itf=.35 Vtf=10
++   Xtf=2)
+
+*------------------------------  2T384AM-2 -----------------------
+.model 2T384am-2 NPN (Is=18.83f  Xti=3  Eg=1.11  Vaf=4.266  Bf=127.8
++   Ise=284.7f Ne=1.896 Ikf=.7773  Nk=.9337 Xtb=1.5 Br=1 Isc=5.433p
++   Nc=1.66 Ikr=.2503 Rb=10 Rc=.701 Cjc=2.434p Mjc=34.15m Vjc=236.3u
++   Fc=.5 Cje=10.02p   Mje=.6448  Vje=1.442   Tr=22.16n   Tf=144.5p
++   Itf=79.36m Xtf=.2323 Vtf=10)
+*-------------------------------- 2T385A -------------------------
+.model 2T385A NPN (Is=21.15f Xti=3  Eg=1.11  Vaf=90  Bf=60  Ne=1.5
++   Ise=10e-6 Ikf=0.25 Xtb=1.5 Br=1 Nc=2 Isc=10e-6 Ikr=0 Rc=5 Cjc=3p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=15p Vje=.75 Mje=.333 Tr=10n Tf=622.8p
++   Itf=0 Vtf=0 Xtf=0)
+*------------------------------- KT385AM-2 -----------------------
+.model KT385AM2  NPN  (Is=21.15f  Xti=3 Eg=1.11 Vaf=80 Bf=90 Ne=1.5
++   Ise=10e-9 Ikf=0.25 Xtb=1.5  Br=1  Nc=2  Isc=10e-9  Ikr=.3  Rc=4
++   Cjc=3p Vjc=.75 Mjc=.333  Fc=.5  Cje=15p Vje=.75 Mje=.333 Tr=10n
++   Tf=622.8p Itf=.3 Vtf=70 Xtf=1.3)
+
+
+*---------------------------------  2T397  ------------------------
+.model 2T397  NPN (Is=3.475e-18 Xti=3 Eg=1.11 Vaf=70 Bf=130 Ne=1.2
++   Ise=100p Ikf=8m Xtb=1.5 Br=5 Nc=2 Isc=50n Ikr=80m Rc=90 Cjc=1.3p
++   Vjc=.7 Mjc=.333 Fc=.5 Cje=1.5p Vje=.75 Mje=.333  Tr=80p  Tf=40p
++   Itf=8m Vtf=50 Xtf=1.2)
+*---------------------------------  2T399A  -----------------------
+.model 2t399a NPN  (Is=34.26f  Xti=3  Eg=1.11  Vaf=45.05  Bf=56.14
++   Ise=327.8f Ne=1.38 Ikf=2.82 Nk=.5  Xtb=1.5  Br=3.18  Isc=147.9f
++   Nc=1.62 Ikr=.736 Rc=.1276  Cjc=3.405p Mjc=.4057 Vjc=1.234 Fc=.5
++   Cje=3.96p Mje=.55  Vje=1.517  Tr=10n  Tf=69.33p  Itf=1  Rb=14.1
++   Vtf=10)
+*---------------------------------  KT399A  -----------------------
+.model KT399A NPN  (Is=4.1f  Xti=3  Eg=1.11  Vaf=20  Bf=105  Ne=1.5
++   Ise=100n Ikf=15m Xtb=1.5  Br=3  Nc=2  Isc=100n  Ikr=18m   Rc=10
++   Cjc=2.17p Vjc=.75 Mjc=.333  Fc=.5  Cje=3.316p  Vje=.75 Mje=.333
++   Tr=80p Tf=30.91p Itf=40m Vtf=15 Xtf=1.1)
+*---------------------------------  2T3102  -----------------------
+.model 2T3102A  NPN (Is=685.1f Xti=3 Eg=1.11 Vaf=80 Bf=213 Ne=2.55
++   Ise=563.4p Ikf=.43 Xtb=1.5 Br=11.68G Nc=2 Isc=100p Ikr=80m Rc=7
++   Cjc=12.07p Vjc=.7 Mjc=.333 Fc=.5  Cje=9.284p  Vje=.75  Mje=.333
++   Tr=80p Tf=252.6p Itf=8m Vtf=50 Xtf=1.2)
+.model 2T3102B  NPN (Is=685.1f Xti=3 Eg=1.11 Vaf=80 Bf=320 Ne=2.55
++   Ise=563.4p Ikf=.43 Xtb=1.5 Br=11.68G Nc=2 Isc=100p Ikr=80m Rc=7
++   Cjc=12.07p Vjc=.7 Mjc=.333  Fc=.5 Cje=9.284p  Vje=.75  Mje=.333
++   Tr=80p Tf=252.6p Itf=8m Vtf=50 Xtf=1.2)
+.model 2T3102E  NPN (Is=685.1f Xti=3 Eg=1.11 Vaf=80 Bf=500 Ne=2.55
++   Ise=563.4p Ikf=.43 Xtb=1.5 Br=11.68G Nc=2 Isc=100p Ikr=80m Rc=7
++   Cjc=12.07p Vjc=.7 Mjc=.333 Fc=.5 Cje=9.284p  Vje=.75  Mje=.3333
++   Tr=80p Tf=252.6p Itf=8m Vtf=50 Xtf=1.2)
+*--------------------------------  äí3102 -------------------------
+.model kt3102a NPN (Is=5.258f Xti=3 Eg=1.11 Vaf=86 Bf=185  Ne=7.428
++   Ise=28.21n Ikf=.4922 Xtb=1.5  Var=25  Br=2.713  Nc=2  Isc=21.2p
++   Ikr=.25 Rb=52 Rc=1.65 Cjc=9.921p Vjc=.65 Mjc=.33 Fc=.5 Cje=11.3p
++   Vje=.69 Mje=.33 Tr=57.71n Tf=611.5p Itf=.52 Vtf=80 Xtf=2)
+.model kt3102b NPN (Is=3.63f Xti=3 Eg=1.11 Vaf=72  Bf=303  Ne=13.47
++   Ise=43.35n Ikf=96.35m Xtb=1.5  Var=30  Br=3.201  Nc=2  Isc=5.5p
++   Ikr=.1 Rb=37 Rc=1.12 Cjc=11.02p Vjc=.65 Mjc=.33 Fc=.5 Cje=13.31p
++   Vje=.69 Mje=.33 Tr=41.67n Tf=493.4p Itf=.12 Vtf=50 Xtf=2)
+.model kt3102bm NPN (Is=891.4e-18  Xti=3  Eg=1.11  Vaf=64  Bf=311.9
++   Ne=4.136 Ise=594.5p Ikf=60.16m  Xtb=1.5  Var=25  Br=5.622  Nc=2
++   Isc=1.225p Ikr=.25 Rb=59 Rc=1.23 Cjc=9.2p Vjc=.65 Mjc=.33 Fc=.5
++   Cje=9.139p Vje=.69 Mje=.33  Tr=28.24n  Tf=786.5p  Itf=.2 Vtf=30
++   Xtf=2)
+.model KT3102V  NPN  (IS=10e-15 VAF=50V BF=500 IKF=.1A ISE=5uA NE=4
++   VAR=6V ISC=10nA  NC=4   RB=5  RE=.5  CJE=8pF  CJC=6pF  TR=100ns
++   TF=.6ns)
+.model KT3102G NPN (IS=10e-15 VAF=40V BF=1000 IKF=.1A ISE=5uA  NE=4
++   VAR=4V ISC=10nA NC=4  RB=5  RE=.5  CJE=8pF   CJC=6pF   TR=100ns
++   TF=.6ns)
+.model KT3102E  NPN (IS=10e-15 VAF=70V BF=1000 IKF=.1A ISE=5UA NE=4
++   VAR=8V  ISC=10nA  NC=4  RB=5  RE=.5  CJE=8pF  CJC=6pF  TR=100ns
++   TF=.6ns)
+
+*-------------------------------- 2T3117A ------------------------
+.model q2t3117a  NPN  (Is=98.35f  Xti=3 Eg=1.11 Vaf=123.5 Bf=1.158K
++   Ne=1.356 Ise=1.164p  Ikf=.224   Xtb=1.5   Var=96  Br=.343  Nc=2
++   Isc=1.12p Ikr=1.52 Rb=40.7  Rc=.17  Cjc=14.6p  Vjc=.75  Mjc=.33
++   Fc=.5 Cje=56.2p Vje=.69  Mje=.33  Tr=254.8n  Tf=281.9p Itf=1.63
++   Vtf=40 Xtf=2)
+*-------------------------------- KT3117A -------------------------
+.model KT3117A  NPN  (IS=10e-15  ISE=1uA  NE=4  ISC=1uA NC=4 BF=200
++   IKF=.4A VAF=70 CJC=10pF CJE=30pF RB=5 RE=.5 TF=0.6NS TR=200ns)
+*----------------------------  2T504  ------------------------
+.model 2T504 NPN (Is=6.734p Xti=3  Eg=1.11  Vaf=100  Bf=50  Ne=1.5
++   Ise=100u Ikf=.95 Xtb=1.5 Br=1 Nc=2 Isc=100u Ikr=0 Rc=0  Cjc=18p
++   Vjc=.75 Mjc=.333  Fc=.5   Cje=80p   Vje=.75   Mje=.333   Tr=10n
++   Tf=31.75n)
+
+*------------------------------ 2T602 --------------------------
+.model 2T602A NPN (Is=36.7n Xti=3  Eg=1.11  Vaf=180  Bf=50  Ne=1.5
++   Ise=10e-6 Ikf=70e-3 Xtb=1.5  Br=1 Nc=2 Isc=10e-6 Ikr=10e-6 Rc=0
++   Cjc=14p Vjc=.75 Mjc=.333 Fc=.5 Cje=25p Vje=.75  Mje=.333 Tr=10n
++   Tf=1.027n Itf=0 Vtf=0 Xtf=0)
+.model 2T602B NPN (Is=36.7n Xti=3 Eg=1.11  Vaf=175  Bf=125  Ne=1.5
++   Ise=10e-6 Ikf=70e-3 Xtb=1.5  Br=1 Nc=2 Isc=10e-6 Ikr=10E-6 Rc=0
++   Cjc=14p Vjc=.75 Mjc=.333 Fc=.5 Cje=25p Vje=.75  Mje=.333 Tr=10n
++   Tf=1.027n Itf=0 Vtf=0 Xtf=0)
+*------------------------------ KT608 --------------------------
+.model KT608A  NPN  (IS=1e-12 VAF=60 VAR=8V BF=80 IKF=.4A NC=4 NE=4
++   RB=3 RE=.5 ISE=10uA ISC=10uA CJC=12pF CJE=30pF TR=50NS TF=.6ns)
+.model KT608B  NPN (IS=1e-12 VAF=60 VAR=8V BF=160 IKF=.4A NC=4 NE=4
++   RB=3 RE=.5 ISE=10uA ISC=10uA CJC=12pF CJE=30pF TR=50ns TF=.6ns)
+*---------------------------------  2T625  ------------------------
+.model 2T625A NPN (Is=23.27p Xti=3 Eg=1.11  Vaf=120  Bf=75  Ne=1.5
++   Ise=30e-6 Ikf=.8 Xtb=1.5 Br=1 Nc=2 Isc=30E-6 Ikr=0 Rc=0 Cjc=18p
++   Vjc=.75 Mjc=.333 Cje=90p Vje=.75 Mje=.333 Tr=10n Tf=1.521n)
+.model 2T625B NPN (Is=23.27p Xti=3 Eg=1.11  Vaf=120  Bf=80  Ne=1.5
++   Ise=30e-6 Ikf=.8 Xtb=1.5 Br=1 Nc=2 Isc=30E-6 Ikr=0 Rc=0 Cjc=18p
++   Vjc=.75 Mjc=.333 Cje=90p Vje=.75 Mje=.333 Tr=10n Tf=1.521n)
+
+*--------------------------------  2T629A -------------------------
+.model 2T629A NPN (Is=70.49f Xti=3  Eg=1.11  Vaf=80  Bf=45  Ne=1.5
++   Ise=5u Ikf=1 Xtb=1.5 Br=1 Nc=2 Isc=5u Ikr=0 Rc=0 Cjc=20p Vjc=.75
++   Mjc=.333 Fc=.5 Cje=100p Vje=.75 Mje=.333 Tr=10n Tf=1.499n)
+*--------------------------------- 2T630 --------------------------
+.model 2T630A NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=80 Ne=1.5
++  Ise=1e-7 Ikf=.8  Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++  Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n)
+.model 2t630b  NPN (Is=17.03f Xti=3 Eg=1.11 Vaf=123 Bf=473 Ne=1.37
++   Ise=163.3f Ikf=.4095 Xtb=1.5  Var=75  Br=4.804  Nc=2  Isc=1.35p
++   Ikr=.21 Rb=14.2  Rc=.65   Cjc=21.24p   Vjc=.69   Mjc=.33  Fc=.5
++   Cje=34.4p Vje=.69  Mje=.35 Tr=50.1n  Tf=1.795n  Itf=.65  Vtf=60
++   Xtf=1.1)
+.model 2T630V NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=80 Ne=1.5
++  Ise=1e-7 Ikf=.8  Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++  Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n)
+.model 2T630G NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=80 Ne=1.5
++  Ise=1e-7 Ikf=.8 Xtb=1.5 Br=1 Nc=2 Isc=1E-6 Ikr=.7  Rc=0  Cjc=25p
++  Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n)
+.model 2T630D NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=80 Bf=300 Ne=1.5
++  Ise=1e-7 Ikf=.8  Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++  Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n)
+*----------------------------  KT630 ------------------------
+.model KT630A NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=80  Ne=1.5
++   Ise=1e-7 Ikf=.8 Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n
++   Itf=.75 Vtf=120 Xtf=1.2)
+.model KT630B NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=160 Ne=1.5
++   Ise=1e-7 Ikf=.8 Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n
++   Itf=.75 Vtf=120 Xtf=1.2)
+.model KT630V NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=80  Ne=1.5
++   Ise=1e-7 Ikf=.8 Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n
++   Itf=.75 Vtf=120 Xtf=1.2)
+.model KT630G NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=120 Bf=80  Ne=1.5
++   Ise=1e-7 Ikf=.8 Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n
++   Itf=.75 Vtf=120 Xtf=1.2)
+.model KT630D NPN (Is=442.7e-18 Xti=3 Eg=1.11 Vaf=80 Bf=300  Ne=1.5
++   Ise=1e-7 Ikf=.8 Xtb=1.5  Br=1 Nc=2 Isc=1E-6 Ikr=.7 Rc=0 Cjc=25p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=65p Vje=.75 Mje=.333 Tr=10n Tf=3.129n
++   Itf=.75 Vtf=120 Xtf=1.2)
+.MODEL KT630E NPN (IS=1e-12 ISE=1nA NE=4 ISC=1nA NC=4 BF=480 IKF=1A
++   VAF=70 CJC=15pF  CJE=65pF   RB=2.5   RE=0.5   TF=0.7ns  TR=70ns
++   KF=1e-15)
+
+*-------------------------------- KT635Å --------------------------
+.model KT635B  NPN  (Is=487.2f  Xti=3  Eg=1.11 Vaf=65 Bf=105 Ne=1.5
++   Ise=1u Ikf=1.2 Xtb=1.5 Br=2 Nc=2 Isc=1u Ikr=1.2 Rc=.8 Cjc=19.43p
++   Vjc=.75 Mjc=.3333 Fc=.5 Cje=80p Vje=.75 Mje=.3333 Tr=1n Tf=240p
++   Itf=1 Vtf=65 Xtf=1.3)
+*-------------------------------- 2í638Ä --------------------------
+.model 2t638a NPN (Is=54.3f Xti=3 Eg=1.11 Vaf=95 Bf=1.39K Ne=1.249
++   Ise=54.3f Ikf=.1966 Xtb=1.5  Var=76   Br=.42   Nc=2   Isc=5.44p
++   Ikr=.125 Rb=45.2  Rc=3.75   Cjc=13.2p   Vjc=.65  Mjc=.33  Fc=.5
++   Cje=32.4p Vje=.69 Mje=.33 Tr=587.6n  Tf=397.5p Itf=.195  Vtf=65
++   Xtf=2)
+
+*------------------------------- KT642A-2 -------------------------
+.model KT642A-2  NPN(Is=5.6f  Xti=3  Eg=1.11  Vaf=20  Bf=12  Ne=1.5
++   Ise=150u Ikf=60m Xtb=1.5  Br=1  Nc=2  Isc=150u  Ikr=60m  Rc=10m
++   Cjc=2.76p Vjc=.75 Mjc=.3333  Fc=.5  Cje=1.7p  Vje=.75 Mje=.3333
++   Tr=10p Tf=14.51e-12 Itf=60m Vtf=20 Xtf=1.3)
+
+*-------------------------------- 2T646A --------------------------
+.model 2T646A NPN (Is=2.262n Xti=3 Eg=1.11 Vaf=80  Bf=130  Ne=1.41
++   Ise=2.262n Ikf=.5 Xtb=1.5  Br=.5  Nc=2  Isc=1n  Ikr=.5   Rc=1.1
++   Cjc=24.29p Vjc=.75  Mjc=.33   Fc=.5  Cje=106p  Vje=.75  Mje=.33
++   Tr=367.3n Tf=655.8p Itf=.5 Vtf=80 Xtf=1.1)
+*--------------------------------  KT653B -------------------------
+.model KT653B  NPN  (Is=48.25p  Xti=3  Eg=1.11 Vaf=120 Bf=50 Ne=1.5
++   Ise=1u Ikf=2 Xtb=1.5  Br=4  Nc=2  Isc=1u  Ikr=2 Rc=2 Cjc=24.29p
++   Vjc=.75 Mjc=.33 Fc=.5   Cje=47.43p   Vje=.75   Mje=.33   Tr=20n
++   Tf=799.5p Itf=1.5 Vtf=120 Xtf=1.3)
+
+*-------------------------------- 2T815É --------------------------
+.model kt815g NPN (Is=3.37p Xti=3 Eg=1.11 Vaf=100 Bf=53.9  Ne=1.576
++   Ise=63.7p Ikf=.153  Xtb=1.5   Br=2.39  Nc=2  Isc=0  Ikr=0  Rc=0
++   Cjc=61.7p Vjc=.75 Mjc=.33  Fc=.5  Cje=51.3p   Vje=.75   Mje=.33
++   Tr=3.63u Tf=52.92n Itf=0 Vtf=0 Xtf=0)
+
+*----------------------------  2T819 --------------------------
+.model 2T819A NPN (Is=51.74E-18 Xti=3 Eg=1.11 Vaf=200 Bf=20 Ne=1.5
++   Ise=1E-3 Ikf=5 Xtb=1.5 Br=1 Nc=2 Isc=1E-3 Ikr=0  Rc=0  Cjc=600p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=1n Vje=.75 Mje=.333 Tr=10n Tf=31.81n)
+.model 2T819B NPN (Is=51.74E-18 Xti=3 Eg=1.11 Vaf=200 Bf=20 Ne=1.5
++   Ise=1E-3 Ikf=5  Xtb=1.5  Br=1 Nc=2 Isc=1E-3 Ikr=0 Rc=0 Cjc=600p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=1n Vje=.75 Mje=.333 Tr=10n Tf=31.81n)
+.model 2T819V NPN (Is=51.74E-18 Xti=3 Eg=1.11 Vaf=200 Bf=20 Ne=1.5
++  Ise=1E-3 Ikf=5 Xtb=1.5 Br=1 Nc=2 Isc=1E-3 Ikr=0  Rc=0  Cjc=600p
++  Vjc=.75 Mjc=.333 Fc=.5 Cje=1n Vje=.75 Mje=.333 Tr=10n Tf=31.81n)
+.model 2T819G NPN (Is=51.74E-18 Xti=3 Eg=1.11 Vaf=200 Bf=20 Ne=1.5
++   Ise=1E-3 Ikf=5 Xtb=1.5  Br=1  Nc=2 Isc=1E-3 Ikr=0 Rc=0 Cjc=600p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=1n Vje=.75 Mje=.333 Tr=10n Tf=31.81n)
+*-------------------------------- KT819 ---------------------------
+.model KT819A NPN (IS=1e-10 ISE=100uA  NE=4  ISC=100uA  NC=4  BF=15
++   IKF=10A VAF=50 CJC=360pF CJE=500pF RB=.15 RE=.05 TF=30ns TR=2us)
+.model KT819B NPN (IS=1e-10 ISE=100uA  NE=4  ISC=100uA  NC=4  BF=20
++   IKF=10A VAF=80 CJC=360pF CJE=500pF RB=.15 RE=.05 TF=30ns TR=2us)
+.model KT819V NPN (IS=1e-10 ISE=100uA  NE=4  ISC=100uA  NC=4  BF=15
++   IKF=10A VAF=100 CJC=360pF  CJE=500pF  RB=.15   RE=.05   TF=30ns
++   TR=2us)
+
+*--------------------------------- 2T827 --------------------------
+.model Q2t827a NPN (Is=78.46e-21 Xti=3 Eg=1.11 Vaf=68.45  Bf=10.55K
++   Ne=1.353 Ise=435.4e-21 Ikf=36.11  Nk=.8578   Xtb=1.5   Br=1.816
++   Ikr=1u Isc=2.006e-18  Nc=1.475  Rc=.1999  Cjc=971.6p  Mjc=.3333
++   Vjc=.75 Fc=.5 Cje=690.1p Mje=.3333 Vje=.75 Tr=13.31m  Tf=3.631m
++   Itf=2.329K Xtf=16.38K Vtf=10)
+
+*--------------------------------- 2T831 --------------------------
+.model Q2t831a  NPN  (Is=2.186m  Xti=3  Eg=1.11  Vaf=62.28 Bf=168.5
++   Ise=2.186m Ne=15.68 Ikf=1.312 Nk=.8379 Xtb=1.5 Br=1  Isc=3.988m
++   Nc=1.596 Ikr=1.39 Rc=35.57m  Cjc=295.8p  Mjc=.333 Vjc=.75 Fc=.5
++   Cje=415p Mje=.3333 Vje=.75 Tr=14.79u Tf=15.56n Itf=1 Vtf=10)
+*-------------------------------- KT831 ---------------------------
+.model KT831A  NPN  (Is=141f  Xti=3  Eg=1.11  Vaf=100  Bf=25 Ne=1.5
++   Ise=100u Ikf=1.5 Xtb=1.5 Br=1 Nc=2 Isc=100u Ikr=0 Rc=0 Cjc=180p
++   Vjc=.75 Mjc=.333 Fc=.5   Cje=210p   Vje=.75   Mje=.333   Tr=10n
++   Tf=31.77n Itf=1.5 Vtf=100 Xtf=1.3)
+.model KT831B  NPN  (Is=141f  Xti=3  Eg=1.11  Vaf=100  Bf=25 Ne=1.5
++   Ise=100u Ikf=1.5 Xtb=1.5 Br=1 Nc=2 Isc=100u Ikr=0 Rc=0 Cjc=180p
++   Vjc=.75 Mjc=.333 Fc=.5   Cje=210p   Vje=.75   Mje=.333   Tr=10n
++   Tf=31.77n Itf=1.5 Vtf=100 Xtf=1.3)
+.model KT831V  NPN  (Is=141f  Xti=3  Eg=1.11  Vaf=100  Bf=25 Ne=1.5
++   Ise=100u Ikf=1.5 Xtb=1.5 Br=1 Nc=2 Isc=100u Ikr=0 Rc=0 Cjc=180p
++   Vjc=.75 Mjc=.333 Fc=.5   Cje=210p   Vje=.75   Mje=.333   Tr=10n
++   Tf=31.77n Itf=1.5 Vtf=100 Xtf=1.3)
+.model KT831G  NPN  (Is=141f  Xti=3  Eg=1.11  Vaf=100  Bf=20 Ne=1.5
++   Ise=100u Ikf=1.5 Xtb=1.5 Br=1 Nc=2 Isc=100u Ikr=0 Rc=0 Cjc=180p
++   Vjc=.75 Mjc=.333 Fc=.5   Cje=210p   Vje=.75   Mje=.333   Tr=10n
++   Tf=31.77n Itf=1.5 Vtf=100 Xtf=1.3)
+
+*-------------------------------- KT841A --------------------------
+.model KT841A  NPN  (Is=3.22n  Xti=3  Eg=1.11  Vaf=80  Bf=30 Ne=1.5
++   Ise=100u Ikf=2 Xtb=1.5 Br=2 Nc=2 Isc=50u Ikr=3 Rc=.12 Cjc=534.4p
++   Vjc=.75 Mjc=.333  Fc=.5  Cje=5.04n  Vje=.75   Mje=.333   Tr=40n
++   Tf=5.336n Itf=2 Vtf=120 Xtf=1.2)
+*-------------------------------- KT847A --------------------------
+.model KT847A NPN (Is=7.34u  Xti=3  Eg=1.11  Vaf=50  Bf=100  Ne=1.5
++   Ise=50u Ikf=2 Xtb=1.5 Br=3 Nc=2 Isc=50u Ikr=2 Rc=90m Cjc=512.1p
++   Vjc=.75 Mjc=.333  Fc=.5   Cje=5.99n   Vje=.75  Mje=.333  Tr=30n
++   Tf=10.43n Itf=2 Vtf=40 Xtf=1.3)
+*-------------------------------- KT866A --------------------------
+.model KT866A  NPN  (Is=4.4u  Xti=3  Eg=1.11  Vaf=120  Bf=70 Ne=1.5
++   Ise=10u Ikf=2 Xtb=1.5 Br=3 Nc=2 Isc=20u Ikr=2 Rc=.15 Cjc=777.2p
++   Vjc=.75 Mjc=.333 Fc=.5  Cje=5.99n   Vje=.75   Mje=.333   Tr=30n
++   Tf=5.16n Itf=2 Vtf=40 Xtf=1.3)
+*--------------------------------  KT880A -------------------------
+.model KT880A NPN  (Is=4.4u  Xti=3  Eg=1.11  Vaf=120  Bf=70  Ne=1.5
++   Ise=10u Ikf=2 Xtb=1.5 Br=3 Nc=2 Isc=20u Ikr=2 Rc=.15 Cjc=777.2p
++   Vjc=.75 Mjc=.333  Fc=.5   Cje=5.99n   Vje=.75  Mje=.333  Tr=30n
++   Tf=5.16n Itf=2 Vtf=40 Xtf=1.3)
+*-------------------------------- 2T921A --------------------------
+.model Q2T921A  NPN  (Is=321.7p  Xti=3  Eg=1.11 Vaf=70 Bf=20 Ne=1.5
++   Ise=1e-6 Ikf=.4 Xtb=1.5  Br=1  Nc=2 Isc=1E-6 Ikr=0 Rc=0 Cjc=50p
++   Vjc=.75 Mjc=.333 Fc=.5 Cje=210p Vje=.75 Mje=.333 Tr=10n Tf=775p
++   Itf=0 Vtf=0 Xtf=0)
+
+*---------------------------  KT926A -------------------------
+.model KT926A NPN (Is=11.34e-21 Xti=3 Eg=1.11 Vaf=150 Bf=25  Ne=1.5
++  Ise=10u Ikf=3  Xtb=1.5 Br=3 Nc=2 Isc=20u Ikr=3 Rc=.15 Cjc=777.2p
++  Vjc=.75   Mjc=.333  Fc=.5   Cje=5.985n   Vje=.75 Mje=.333 Tr=30n
++  Tf=2.922n Itf=2 Vtf=120 Xtf=1.3)
+*-------------------------------- KT939A --------------------------
+.model Q2t939a  NPN  (Is=4.08f  Xti=3  Eg=1.11  Vaf=25.48  Bf=105.4
++  Ise=56.88f Ne=1.39  Ikf=1.763  Nk=.82  Xtb=1.5  Br=1  Isc=365.6f
++  Nc=1.825  Ikr=.398  Rb=6  Rc=.818  Cjc=10.12p Mjc=.8707 Vjc=7.26
++  Fc=.5 Cje=17.53p Mje=.4951 Vje=1.472 Tr=10n Tf=40.66p  Itf=10.44
++  Xtf=70.42 Vtf=10)

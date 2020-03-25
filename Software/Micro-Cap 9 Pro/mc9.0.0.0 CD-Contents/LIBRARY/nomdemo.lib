@@ -1,0 +1,9 @@
+.lib "small.lbr"
+.lib "digio.lib"
+.lib "anlgdemo.lib"
+.lib "digdemo.lib"
+.lib "smps_cb.lib"
+.lib "vatche.lib"
+.lib "tube.lib"
+.lib "japan.lbr"
+

@@ -1,0 +1,736 @@
+[Main]
+FileType=CIR
+Version=9.00
+Program=Micro-Cap
+Screen=1024,768
+MCAPVersion=9.0.0.0
+Key ID=90 493 846
+NLCnt=43
+TXCnt=11
+
+[shapedef]
+Name=ISource
+Ellipse=-12,12,12,36
+Line=0,0,0,24
+PolyClosed=3 ,Solid
+PolyLine=-4,24
+PolyLine=4,24
+PolyLine=0,32
+Line=0,32,0,48
+Current=16,16,16,32
+
+[shapedef]
+Name=SPICE_V
+Root="Vsource.root",0,-12,0
+
+[shapedef]
+Name=Resistor
+PolyOpen=12 
+PolyLine=0,0
+PolyLine=0,0
+PolyLine=12,0
+PolyLine=14,-4
+PolyLine=18,4
+PolyLine=22,-4
+PolyLine=26,4
+PolyLine=30,-4
+PolyLine=34,4
+PolyLine=36,0
+PolyLine=48,0
+PolyLine=48,0
+Current=32,8,16,8
+
+[shapedef]
+Name=VOFV
+Root="VOFV.Root",-2,-2,0
+
+[shapedef]
+Name=FIOFI
+Root="ISource",-12,0,0
+Root="TextF.Root",-19,20,0
+
+[shapedef]
+Name=Minus.root
+Line=-2,0,2,0
+
+[shapedef]
+Name=Vsource.root
+Line=0,0,12,0
+Line=36,0,48,0
+Ellipse=12,-12,36,12
+Line=7,5,7,9
+Root="Plus.root",39,5,0
+Current=32,16,16,16
+
+[shapedef]
+Name=Plus.root
+Line=-2,0,2,0
+Line=0,-2,0,2
+
+[shapedef]
+Name=Vsrc.root
+Root="Plus.root",41,6,0
+Root="Minus.root",41,40,0
+Line=48,0,48,12
+Line=48,36,48,48
+Ellipse=36,12,61,36
+Current=64,16,64,32
+
+[shapedef]
+Name=OFV.Root
+Root="Plus.root",6,6,0
+Ellipse=-2,-2,2,2
+Ellipse=-2,46,2,50
+
+[shapedef]
+Name=TextF.Root
+Line=0,0,5,0
+Line=0,0,0,8
+Line=2,4,0,4
+
+[shapedef]
+Name=VOFV.Root
+Line=0,0,0,0
+Line=0,48,0,48
+Root="Vsrc.root",36,0,0
+Root="OFV.Root",-2,-2,0
+Current=64,16,64,32
+
+[shapedef]
+Name=Respolar
+PolyOpen=12 
+PolyLine=0,0
+PolyLine=0,0
+PolyLine=12,0
+PolyLine=14,-4
+PolyLine=18,4
+PolyLine=22,-4
+PolyLine=26,4
+PolyLine=30,-4
+PolyLine=34,4
+PolyLine=36,0
+PolyLine=48,0
+PolyLine=48,0
+Line=42,4,42,8
+Line=40,6,44,6
+Line=4,6,8,6
+Current=32,8,16,8
+
+[shapedef]
+Name=ISource_Eur.Root
+Line=0,0,0,24
+Ellipse=-12,20,12,40
+Line=0,40,0,48
+Line=0,24,0,32
+PolyClosed=4 ,Solid
+PolyLine=-4,32
+PolyLine=-4,32
+PolyLine=4,32
+PolyLine=0,40
+Ellipse=-12,8,12,28
+Current=16,16,16,32
+
+[shapedef]
+Name=Resistor_Euro
+Rectangle=12,-4,36,4
+Line=0,0,12,0
+Line=48,0,36,0
+Current=32,8,16,8
+
+[shapedef]
+Name=FIOFI_Euro
+Root="ISource_Eur.Root",-12,0,0
+Root="TextF.Root",-19,20,0
+
+[compdef]
+Name=FIOFI
+Definition=FIofI
+Shape=FIOFI
+ShapeAlias="Euro","FIOFI_Euro"
+Mask=5120
+memo=SPICE dependent IofI source
+Label Offset=15,13,-29,13
+PinCnt=2
+Pin="Plus",0,0,7,12
+Pin="Minus",0,6,7,3
+
+[compdef]
+Name=Voltage Source
+Definition=VSpice
+Shape=SPICE_V
+Mask=5120
+memo=Voltage Source
+Label Offset=19,13,15,13
+PinCnt=2
+Pin="Plus",6,0,-5,-6
+Pin="Minus",0,0,-20,-6
+
+[compdef]
+Name=Resistor
+Definition=Resistor
+Shape=Resistor
+ShapeAlias="Euro","Resistor_Euro"
+ShapeAlias="Polarity","Respolar"
+Mask=7937
+memo=Resistor
+Label Offset=18,6,8,11
+PinCnt=2
+Pin="Plus",6,0,-10,-4
+Pin="Minus",0,0,-14,-4
+
+[compdef]
+Name=VofV
+Definition=VofV
+Shape=VOFV
+Mask=4096
+memo=Linear VofV constant dependent source 
+Label Offset=62,11,-30,59
+PinCnt=4
+Pin="Plus Output",6,0,-18,-3
+Pin="Minus Output",6,6,-9,18
+Pin="Plus Input",0,0,-31,-3
+Pin="Minus Input",0,6,-29,18
+
+[Circuit]
+Window Placement=2,3, -1,-1, -4,-25, 96,96,904,547
+Default Object=Color=#000080
+Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
+Default Object Apply Border To Text=No
+Default Object Apply Fill To Text=No
+WinBackGround Color=#FFFFFF
+Select Color=#FF0000
+Select Box Color=#000080
+Grid Text Color=Height=-12,FStyle=0,Color=#800000,Name=Arial
+Component Color=#0000FF
+Attribute Text=Height=-12,FStyle=0,Color=#008000,Name=Arial
+Wire Color=#008000
+Bus Color=#008000
+Pin Connection=Height=-10,FStyle=0,Color=#FF0000,Name=Arial
+Node Number=Height=-11,FStyle=0,Color=#FF00FF,Name=Arial
+Node Voltage Color=#000000
+Dynamic AC Voltage Color=#E4E4E4
+Text Banner Text=Height=-15,FStyle=0,Color=#800000,Name=Arial
+Title Block Background=#C0C0C0
+Current=Height=-11,FStyle=0,Color=#0000FF,Name=Arial
+Power/Condition=Height=-11,FStyle=0,Color=#FF0000,Name=Arial
+Digital Path Color=#FF0000
+Title Block=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Disabled	Color=#C0C0C0
+KeyWord Color=#0000FF
+Error	Color=#FF0000
+Digital 0 Color=#000000
+Digital R Color=#FFFF00
+Digital F Color=#FFFF00
+Digital 1 Color=#FF0000
+Digital X Color=#C0C0C0
+Digital Z Color=#808080
+SpiceType=AMBIGUOUS
+Block Select Color=#51F998
+TitleBlock Field_1=$name
+TitleBlock Field_2=$user $company
+TitleBlock Field_3
+TitleBlock Field_4=$date
+TitleBlock Field_5=Page $page of $maxpage
+TitleBlock One Title=True
+Title_Block_Border=False
+Title_Block=False
+Show Nodes=False
+Show Voltages=False
+Show Current=False
+Show Power=False
+Show Condition=False
+Show Pin Connections=False
+Show Cross=False
+Show Attribute Text=True
+Show Grid Text=True
+
+[Object]
+Object=Rectangle
+CBorder=#000080
+Grids=1,1,83,51
+
+[Comp]
+Name=FIOFI
+Grid=17,23
+
+[Attr]
+ONV=16,18,PART,F1
+Style=8192
+Color=#FF0000
+
+[Attr]
+ONV=-55,-62,VALUE,V1 {Ratio12}
+Style=12288
+Color=#FF0000
+
+[Comp]
+Name=Voltage Source
+Grid=42,18
+Rot=6
+
+[Attr]
+ONV=-31,-31,PART,V1
+Style=8192
+Color=#FF0000
+
+[Attr]
+ONV=-49,20,VALUE,0
+Style=12288
+Color=#FF0000
+
+[Wire]
+Grids=33,18,33,23
+
+[Wire]
+Grids=33,18,36,18
+
+[Wire]
+Grids=33,29,33,34
+
+[Wire]
+Grids=33,34,52,34
+
+[Wire]
+Grids=17,29,17,34
+
+[Wire]
+Grids=17,18,17,23
+
+[Wire]
+Grids=42,18,44,18
+
+[Comp]
+Name=Resistor
+Grid=23,29
+Rot=3
+
+[Attr]
+ONV=9,-36,PART,R3
+Color=#FF0000
+
+[Attr]
+ONV=8,-29,RESISTANCE,1E6
+Style=8192
+Color=#FF0000
+
+[Wire]
+Grids=23,29,23,34
+
+[Wire]
+Grids=9,34,17,34
+
+[Wire]
+Grids=23,18,23,23
+
+[Wire]
+Grids=9,18,17,18
+
+[Comp]
+Name=Resistor
+Grid=44,18
+Rot=4
+
+[Attr]
+ONV=18,-21,PART,R4
+Color=#FF0000
+
+[Attr]
+ONV=16,6,RESISTANCE,1U
+Style=8192
+Color=#FF0000
+
+[Wire]
+Grids=50,18,52,18
+
+[Wire]
+Grids=61,18,61,23
+
+[Wire]
+Grids=61,18,64,18
+
+[Wire]
+Grids=61,29,61,34
+
+[Wire]
+Grids=61,34,78,34
+
+[Comp]
+Name=FIOFI
+Grid=9,23
+
+[Attr]
+ONV=16,18,PART,F2
+Style=8192
+Color=#FF0000
+
+[Attr]
+ONV=-43,98,VALUE,V2 {Ratio13}
+Style=12288
+Color=#FF0000
+
+[Wire]
+Grids=9,29,9,34
+
+[Wire]
+Grids=9,18,9,23
+
+[Comp]
+Name=Voltage Source
+Grid=70,18
+Rot=6
+
+[Attr]
+ONV=-31,-31,PART,V2
+Style=8192
+Color=#FF0000
+
+[Attr]
+ONV=-49,20,VALUE,0
+Style=12288
+Color=#FF0000
+
+[Comp]
+Name=Resistor
+Grid=70,18
+Rot=4
+
+[Attr]
+ONV=18,-21,PART,R5
+Color=#FF0000
+
+[Attr]
+ONV=15,11,RESISTANCE,1U
+Style=8192
+Color=#FF0000
+
+[Wire]
+Grids=76,18,78,18
+
+[Wire]
+Grids=17,18,23,18
+
+[Wire]
+Grids=17,34,23,34
+
+[Comp]
+Name=VofV
+Grid=27,23
+
+[Attr]
+ONV=62,11,PART,E3
+Style=8192
+Color=#FF0000
+
+[Attr]
+ONV=89,15,VALUE,RATIO12
+Style=12288
+Color=#FF0000
+
+[Comp]
+Name=VofV
+Grid=55,23
+
+[Attr]
+ONV=63,11,PART,E4
+Style=8192
+Color=#FF0000
+
+[Attr]
+ONV=89,15,VALUE,RATIO13
+Style=12288
+Color=#FF0000
+
+[Wire]
+Grids=27,18,27,23
+
+[Wire]
+Grids=23,18,27,18
+
+[Wire]
+Grids=27,29,27,34
+
+[Wire]
+Grids=23,34,27,34
+
+[Wire]
+Grids=27,14,27,18
+
+[Wire]
+Grids=27,14,55,14
+
+[Wire]
+Grids=55,14,55,23
+
+[Wire]
+Grids=27,34,27,37
+
+[Wire]
+Grids=27,37,55,37
+
+[Wire]
+Grids=55,29,55,37
+
+[Wire]
+Grids=6,34,9,34
+
+[Wire]
+Grids=6,18,9,18
+
+[Grid Text]
+Text=".Help Ratio12 "Turns ratio between port 1 and port 2.""
+Grid=24,11
+Color=#008000
+CBorder=NONE
+
+[Grid Text]
+Text="3M"
+Grid=78,34
+Color=#FF0000
+CBorder=NONE
+
+[Grid Text]
+Text="3P"
+Grid=78,18
+Color=#FF0000
+CBorder=NONE
+
+[Grid Text]
+Text="2M"
+Grid=52,34
+Color=#FF0000
+CBorder=NONE
+
+[Grid Text]
+Text="2P"
+Grid=52,18
+Color=#FF0000
+CBorder=NONE
+
+[Grid Text]
+Text="1M"
+Grid=6,34
+Color=#FF0000
+CBorder=NONE
+
+[Grid Text]
+Text="1P"
+Grid=6,18
+CBorder=NONE
+
+[Grid Text]
+Text=".PARAMETERS(Ratio12=1,Ratio13=1)"
+Grid=24,9
+Height=-13
+Color=#FF0000
+CBorder=NONE
+
+[Grid Text]
+Text="This macro provides an ideal three port transformer governed by these equations: þ(V1, V2, and V3 are the three port voltages and I1, I2, and I3 are the three port currents)þV2 = Ratio12 * V1 ; I2  =  I1 / Ratio12þV3 = Ratio13 * V1 ; I3  =  I1 / Ratio13"
+Grid=13,46
+Height=-13
+Color=#008080
+CBorder=NONE
+
+[Grid Text]
+Text="IDEAL 3-PORT TRANSFORMER MACRO"
+Grid=23,6
+Height=-19
+Color=#FF00FF
+CBorder=NONE
+
+[Grid Text]
+Text=".Help Ratio13 "Turns ratio between port 1 and port 3.""
+Grid=24,13
+Color=#008000
+CBorder=NONE
+
+[Schematic]
+CurrentSection 0=0
+CurrentSection 1=0
+CurrentSection 2=0
+CurrentSection 3=0
+Splitter.xs=0
+Splitter.ys=0
+TextQuad=4099
+Scale=0.6666666666666666
+PrinterScale=1
+GridUser=10
+ShapeGroups="Main","Euro","DeMorgan","Main1","Polarity","Electrolytic"
+CalcRMS=False
+CalcAVG=False
+CalcPeak=False
+DisplayMeasure=Last
+
+[Tools]
+Pos=Top
+PROBE=Yes
+SELECT=Yes
+COMP=Yes
+TEXT=Yes
+WIRE=Yes
+WIRED=Yes
+BUS=Yes
+GRAPHIC=Yes
+LINE=No
+ELLIPSE=No
+RECT=No
+DIAM=No
+ARC=No
+PIE=No
+LEFTBRK=No
+RIGHTBRK=No
+BOTHBRK=No
+FLAG=No
+META=No
+INFO=Yes
+HELP=Yes
+LINK=No
+REGION_ENABLE=Yes
+DIGTRC=No
+DIGTRC2=No
+DIGALL=No
+GRIDTEXT=Yes
+COMPTEXT=Yes
+NODE=Yes
+MEASURED=Yes
+NODEV=Yes
+CURRENT=Yes
+POWER=Yes
+CONDITIN=Yes
+PIN=Yes
+CROSS=No
+GRID=No
+BORDER=No
+TITLE=No
+RUBBER=Yes
+PROPERTY=Yes
+STEP=Yes
+MIRROR=Yes
+ROTATE=Yes
+FLIPY=Yes
+FLIPX=Yes
+FINDCOMP=Yes
+FIND=Yes
+REPEAT=No
+MODEL=Yes
+CIR2CKT=No
+ATTDISP=No
+ENABLE=No
+DISABLE=No
+TOFRONT=No
+TOBACK=No
+SELNEXT=No
+PAGEADD=No
+PAGEDEL=No
+ZOOMIN=Yes
+ZOOMOUT=Yes
+GOTOFLAG=No
+UPLEVEL=Yes
+COLOR=No
+FONT=No
+
+[Section]
+Index=0
+Name="gyrator"
+Type=Main
+Enable=True
+CurrentPage 0=0
+CurrentPage 1=0
+CurrentPage 2=0
+CurrentPage 3=0
+TabSize 0=320
+TabSize 1=320
+TabSize 2=320
+TabSize 3=320
+
+[Page]
+Index=0
+Section=0
+Print=False
+Enable=True
+Name=Main
+Scale 0=1
+Scale 1=1
+Scale 2=1
+Scale 3=0.6666666666666666
+Grid=5,1
+
+[Page]
+Index=1
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Text
+
+[Page]
+Index=2
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Models
+
+[Page]
+Index=3
+Section=0
+Type=Info
+Print=False
+Enable=True
+Name=Info
+
+[Text Area]
+Section=0
+Page=1
+Font=Height=-15,FStyle=0,Color=#000080,Name=Courier New
+Comment Color=#808080
+Background Color=#FFFFFF
+Len=0
+
+
+[Text Area]
+Section=0
+Page=2
+Font=Height=-15,FStyle=0,Color=#000080,Name=Courier New
+Comment Color=#808080
+Background Color=#FFFFFF
+Len=0
+
+
+[Limits]
+Analysis=DynamicAC
+FirstValueDisplay=Mag
+SecondValueDisplay=PhaseDeg
+PlaceText=True
+
+[Limits]
+Analysis=DynamicDC
+PlaceText=True
+
+[Pane]
+Analysis=Transient
+
+[Pane]
+Analysis=AC
+
+[Pane]
+Analysis=DC
+
+[Pane]
+Analysis=Distortion
+
+[OPMethods]
+Analysis=Transient
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=AC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0

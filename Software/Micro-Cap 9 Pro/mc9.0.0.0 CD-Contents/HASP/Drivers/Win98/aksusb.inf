@@ -1,0 +1,105 @@
+; $Id: aksusb.inf,v 1.5 2002/08/26 16:56:36 gerhard Exp $
+;
+; INF File for USB Hardlock
+;---------------------------
+;
+; (c) Copyright 1997,1998 by Aladdin Knowledge Systems
+;
+; $Revision: 1.5 $
+; $Date: 2002/08/26 16:56:36 $
+; $Author: gerhard $
+;
+; $Log: aksusb.inf,v $
+; Revision 1.5  2002/08/26 16:56:36  gerhard
+; start value set to 3
+;
+; Revision 1.11  2002/08/26 12:15:33  horatiu
+; bugfix: StartType is 3 for Win2K
+;
+; Revision 1.10  2000/11/22 15:29:40  Horatiu
+; removed Horg- signing lines
+;
+;
+; Revision 1.9  2000/11/22 15:28:17  Horatiu
+; add changes required for signing as comments - lines are marked 
+; with  Horg - signing. 
+; 
+; Revision 1.8  1998/05/13 15:33:50  chris
+; removed hardlock.vxd entries
+; 
+; Revision 1.7  1998/03/11 14:00:26  chris
+; usbpd -> aksusb name change
+;
+; Revision 1.6  1998/03/09 13:31:01  chris
+; added NT 5 Beta support
+;
+; Revision 1.5  1998/03/06 13:08:59  chris
+; added hardlock.vxd to copylist
+;
+
+[Version]
+signature="$CHICAGO$"
+Provider=%Fast%
+LayoutFile=LAYOUT.INF
+Class=USB
+
+; Table of Contents
+[Manufacturer]
+%FastMfg%=Aladdin
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+aksusb.CopyList = 10,system32\drivers
+aksusb.CopyList.NT = 10,system32\drivers
+;DefaultDestDir=10,system32\drivers
+
+[Aladdin]
+%USB\VID_0529&PID_0001.DeviceDesc%=aksusb, USB\VID_0529&PID_0001 ;USB Protection Device
+
+[NODRIVER]
+
+[ControlFlags]
+ExcludeFromSelect=USB\VID_0529&PID_0001
+
+[aksusb]
+CopyFiles=aksusb.CopyList
+AddReg=aksusb.AddReg
+
+[aksusb.NT]
+CopyFiles=aksusb.CopyList.NT
+AddReg=aksusb.AddReg.NT
+
+[aksusb.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,aksusb.sys
+;HKR,,MyLittleTag,,MyEntryInTheRegistry
+
+[aksusb.AddReg.NT]
+;BUGBUG: PropPageProvider stuff not enabled for setupapi yet!
+HKR,,EnumPropPages32,,"sysclass.dll,USBEnumPropPages"
+
+[aksusb.CopyList]
+aksusb.sys
+
+[aksusb.CopyList.NT]
+aksusb.sys
+
+[aksusb.NT.Services]
+AddService=aksusb,0x02,aksusb.addservices
+
+[aksusb.addservices]
+DisplayName    = %svcdesc%
+ServiceType    = 1		;SERVICE_KERNEL_DRIVER
+StartType      = 3		;SERVICE_AUTO_START
+ErrorControl   = 1		;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\aksusb.sys
+LoadOrderGroup = Base
+
+[Strings]
+Fast="Aladdin Knowledge Systems"
+FastMfg="Aladdin Knowledge Systems"
+svcdesc="Aladdin USB Key"
+USB\VID_0529&PID_0001.DeviceDesc="Aladdin USB Key"
+

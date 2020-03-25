@@ -1,0 +1,316 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fcharset0 Courier New;}{\f1\froman\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;\red255\green0\blue0;}
+\viewkind4\uc1\pard\b\f0\fs32 Micro-Cap 9 Evaluation Version\par
+\b0\fs20\par
+The Evaluation Version is provided as an introduction to the Micro-Cap 9 program. It is a full working version and a highly capable product in its own right. It is provided free to schools and universities and to prospective purchasers of the Standard Version.\par
+\par
+\b Size Limitations:\par
+\b0 Circuits are limited to 50 components and 100 equations (nodes + inductors + sources).\par
+\b\par
+Speed Limitations:\par
+\b0 Speed is deliberately reduced. Analysis run times vary from the same for small circuits to four times longer for the largest circuits, relative to the Standard Version.\par
+\par
+\b Feature Limitations:\par
+\b0 The use of some features such as optimization, filter design, 3D plots, PCB functions, performance plots, and multiple parameter stepping is limited. The MODEL program is not supplied with the Demo Version. Devices using the advanced models (BSIM3, BSIM4, Mextram, Modella, EKV and Philips MOSFET) are limited to a maximum of 5 in a circuit.\par
+\b\par
+Library Limitations:\par
+\b0 A small sample model library is included instead of the extensive model libraries of the Standard Version. The Component, Shape, and Package editors have some command limitations.\par
+\par
+\b Help Demo:\par
+\b0 The Demo option under the Help menu shows a scripted display of many features. Try it as an introduction to MC9 features and operation.\par
+\par
+For further information contact:\par
+\par
+Spectrum Software\par
+1021 S Wolfe Road\par
+Sunnyvale CA 94086\par
+Phone\tab\tab (408) 738-4387\par
+FAX\tab\tab (408) 738-4702\par
+Internet\tab\cf1\ul www.spectrum-soft.com\cf0\ulnone\par
+Sales\tab\tab\cf1\ul sales@spectrum-soft.com\cf0\ulnone\par
+Support\tab\cf1\ul support@spectrum-soft.com\cf0\ulnone\par
+\par
+\par
+\cf2\b\fs28\tab\tab\tab\tab\tab\cf3 New Features in Micro-Cap 9\cf2\b0\par
+\cf0\fs20\par
+\cf4\b Models\cf0\par
+\cf1 IGBT model\cf0\par
+\b0 An integrated IGBT model was added. It is based upon the implementation by Gregory Oziemkiewicz of the Hefner model.\par
+\par
+\cf1\b Philips Mextram bipolar model\cf0\par
+\b0 This is a vertical NPN or PNP bipolar model that describes velocity saturation, base widening, Kirk effect, impact ionization, and self heating effects.\par
+\par
+\cf1\b Philips Modella bipolar model\cf0\par
+\b0 This lateral PNP bipolar model describes current crowding, high-level injection, and bias dependent output impedance.\par
+\par
+\cf1\b Philips MOSFET Model 20\cf0\par
+\b0 A high voltage compact LDMOS model.\par
+\par
+\cf1\b Philips MOSFET Model 31\cf0\par
+\b0 A new high voltage MOSFET model.\par
+\par
+\cf1\b Philips MOSFET Model 40\cf0\par
+\b0 A new high voltage Silicon-On-Insulator (SOI) MOSFET model.\par
+\par
+\cf1\b Philips MOSFET Model 11\cf0\par
+\b0 A popular Philips MOSFET model suitable for low voltage CMOS RF applications.\par
+\par
+\cf1\b PSP MOSFET model\cf0\par
+\b0 PSP is the latest compact, surface-potential based model suitable for digital, analog, and RF CMOS applications. Jointly developed by Philips and Penn State University, the model accounts for mobility reduction, velocity saturation, DIBL, gate current, and lateral doping gradient effects.\par
+\par
+\cf1\b IBIS component\cf0\par
+\b0 A new set of IBIS input / output components were added, easing the importation of IBIS models.\par
+\par
+\cf1\b N-Port component\cf0\par
+\b0 ABCD and T parameters were added.\par
+\par
+\cf1\b Enhanced RLC models\cf0\par
+\b0 Resistors, capacitors, and inductors now have optional model parameters for parasitic resistance, capacitance, and inductance.\par
+\par
+\cf1\b Philips JUNCAP2 model\cf0\par
+\b0 The JUNCAP2 diode model was added. JUNCAP2 is a MOSFET pn junction model that describes depletion capacitance, Shockley-Read-Hall currents, trap-assisted tunnelling and band-to-band tunnelling, avalanche breakdown, and shot noise.\par
+\par
+\cf1\b User source\cf0\par
+\b0 A trigger expression was added. The source is idle until the expression becomes true. \par
+\par
+\cf1\b Digital file stimulus source\cf0\par
+\b0 Added a repeat capability to the source.\par
+\b\par
+\par
+\cf4 Analysis\cf0\par
+\cf1 Enhanced convergence methods\cf0\par
+\b0 The Junction GMIN Stepping and Pseudo Transient methods were added to the arsenal of operating point methods. There are now five methods:\par
+\par
+Standard Newton-Raphson\par
+Source Stepping\par
+Diagonal Gmin Stepping\par
+Junction Gmin Stepping\par
+Pseudo Transient\par
+\par
+Means were added to select the preferred order of usage and to automatically search for the fastest of the methods.\par
+\par
+RSHUNT, CSHUNT, and RP_FOR_ISOURCE global parameters were added to provide augmented convergence. These parameters add an RSHUNT resistance or CSHUNT capacitance from every node to ground, or an RP_FOR_ISOURCE resistance across any current source.\par
+\par
+\cf1\b Waveform Buffer\cf0\par
+\b0 A new Waveform Buffer accumulates curves / waveforms automatically or under user control for later plotting and comparison. In automatic mode the buffer accumulates waveforms up to a user-set memory limit. \par
+\par
+\cf1\b Dynamic analysis mode\cf0\par
+\b0 A new interactive analysis mode allows dynamic plot updates as changes are made. This is an extension of Dynamic DC to transient analysis, AC analysis, and DC analysis. Plots can either accumulate or replace showing the effect of successive changes in component parameters, model parameters, or user variables. Parameter changes can be controlled by sliders, cursor keys, or edits of any kind. \par
+\par
+\cf1\b Dynamic performance tags\cf0\par
+\b0 These new tags perform curve measurements showing the new values each time an analysis is run or a new branch of a stepped curve is selected. \par
+\par
+\cf1\b Individual tag format\cf0\par
+\b0 The color, font, numeric format, and other characteristics can now be set individually for each tag.\par
+\par
+\cf1\b Define variable usage\cf0\par
+\b0 .Define variables can now be used in the X and Y Range fields, the Maximum Time Step, and in the FFT Upper and Lower Time Limit fields.\par
+\par
+\cf1\b Numeric output improvements\cf0\par
+\b0 Variable engineering notation within a column of numbers, selectable row/column tabular format, and curve aliases were added to numeric output files. Printing can be limited to a subset of the simulation range. Numeric output is now available for Dynamic AC and Dynamic DC.\par
+\par
+\cf1\b Plot pages\cf0\par
+\b0 Analysis plot pages with assignable names allow plot grouping.\par
+\par
+\cf1\b New wildcard syntax for plot expressions\cf0\par
+\b0 A new wildcard syntax is available for use in the Y Expression field of the Analysis Limits dialog boxes. This syntax allows the user to compactly specify the plotting of many similar expressions. \par
+\par
+\cf1\b Enhanced cursor function\cf0\par
+\b0 Cursors can now be placed on separate curves.\par
+\par
+\cf1\b Data Point Only waveform style\cf0\par
+\b0 This new plotting style shows the data point marker only, sans line, a sometimes preferred style for FFT plots.\par
+\par
+\cf1\b Enhanced Save Curve command\cf0\par
+\b0 This command can now save in CSV format, for convenient Excel importing.\par
+\par
+\cf1\b Envelope command\cf0\par
+\b0 This new command creates a polygon encompassing the curves of a Monte Carlo or stepped run. It is useful for graphically depicting the plot variation.\par
+\par
+\cf1\b Stepping\cf0\par
+\b0 The tabs of enabled stepping panels are now check-marked so it is easier to see what is active. Part names in the dialog box are now ordered so they go R1, R2, R3 ... R10 rather than R1, R10, R2.\par
+\par
+\cf1\b Visible region auto-scale\cf0\par
+\b0 A new auto scale command is available that operates only over the X portion being currently displayed on the screen.\par
+\par
+\cf1\b New performance functions\cf0\par
+\b0 Added RMS and AVERAGE performance functions.\par
+\par
+\cf1\b Separate select mode for schematic and analysis\cf0\par
+\b0 There is now a separate Select mode option for both Schematic and Analysis. \par
+\par
+\par
+\cf4\b Probe\cf0\par
+\cf1 Edit while probing\cf0\par
+\b0 The interactive analysis feature of MC9 lets you edit the schematic while in probe. Each edit updates the simulation and shows the effect of the change. CTRL + SPACEBAR cycles through the available probe modes, while SPACEBAR now toggles between probe mode and schematic select mode.\par
+\par
+\cf1\b Visual probing of macros and subcircuits\cf0\par
+\b0 Drill down probing lets you visually probe macro schematics or subcircuits to any level. Instead of selecting items from a list, you can probe macro objects directly. With subcircuits, you can probe directly on netlist nodes and names.\par
+\par
+\cf1\b Expanded Probe displays\cf0\par
+\b0 FFT, Performance, and 3D Windows are now available in Probe. \par
+\par
+\par
+\cf4\b Schematic Editor\cf0\par
+\cf1 Macro embedding\cf0\par
+\b0 The Localize command now embeds external macro files into the circuit, for better file portablity.\par
+\par
+\cf1\b Circuitry region enable / disable\cf0\par
+\b0 Circuitry can be temporarily enabled or disabled with a simple click, allowing multiple versions of a circuit to be contained in a single schematic. Disabled regions are ignored during an analysis. Whole pages or regions within pages can be controlled.\par
+\par
+\cf1\b Region enable expressions\cf0\par
+\b0 A new Region Box with an enable expression allows conditional inclusion of circuitry.\par
+\par
+\cf1\b Component panel\cf0\par
+\b0 A new panel provides easy access to the library\par
+\par
+\cf1\b Enhanced Migrate command\cf0\par
+\b0 An enhanced migrate command now handles macro and library files.\par
+\par
+\cf1\b Schematic display\cf0\par
+\b0 On-schematic display of last, RMS, average, or peak values \par
+\par
+\cf1\b User-assignable hotkeys\cf0\par
+\b0 Users can set their own hotkeys for any command.\par
+\par
+\cf1\b Bus\cf0\par
+\b0 A bus connector and associated wiring routines were added. \par
+\par
+\cf1\b Digital stimulus source\cf0\par
+\b0 Common patterns are now button selectable.\par
+\par
+\cf1\b Improved rubberbanding\cf0\par
+\b0 Rubberbanding now eliminates all diagonal lines.\par
+\par
+\cf1\b Multiple shape capability\cf0\par
+\b0 Components can now have multiple shapes assigned to them.  Each shape has a shape group as well as a shape name, allowing easy switching between shape families. \par
+\par
+\cf1\b Window tabs\cf0\par
+\b0 Window tabs allow easy visual access to schematics, plots, histograms, performance window, etc.\par
+\par
+\cf1\b Intelligent Paste command\cf0\par
+\b0 A paste between circuits optionally adds the appropriate model statements, subcircuits, and macros to the new circuit.\par
+\par
+\cf1\b Warning messages\cf0\par
+\b0 Parts and nodes involved in a triggered warning are now colored. The command has been improved with the addition of global names like R@ to refer to any and all resistors. Warning messages are now also sent to the numeric output file. \par
+\par
+\cf1\b Text control blocks\cf0\par
+\b0 New text control blocks (.IF boolean_expression, .ELSE, .ELIF boolean_expression, and .ENDIF) allow conditional inclusion of text, which may control .commands, model statements, and SPICE netlist circuitry. \par
+\par
+\cf1\b .SPICE / .ENDSPICE commands\cf0\par
+\b0 These new commands let you add SPICE netlist-defined circuitry to the text pages of schematics without using a subcircuit. \par
+\par
+\cf1\b Improved Component Find command\cf0\par
+\b0 The find dialog box searches as you type.\par
+\par
+\cf1\b New Parameter Find command\cf0\par
+\b0 A new search command for parameter names and descriptions in the Attribute Dialog Box makes it easy to find parameters in complex MOSFET and bipolar models with lengthy parameter lists.\par
+\par
+\cf1\b Assignable component links\cf0\par
+\b0 Components now have a user-assignable link for quick access to data sheets or other technical documents from an internet URL or a disk location. \par
+\par
+\cf1\b Live text expressions\cf0\par
+\b0 Expressions can now be buried in text and are updated as the constituent variables change. \par
+\par
+\cf1\b Mouse tips\cf0\par
+\b0 Information is displayed at the mouse cursor tip when it is placed over a schematic element. \par
+\par
+\cf1\b Fit to Standard Values command\cf0\par
+\b0 This finds the closest single or series/parallel combination of standard part values that match a given R, L, or C value.\par
+\par
+\cf1\b Multiple circuits password control\cf0\par
+\b0 Many circuits can be given a password simultaneously. \par
+\par
+\cf1\b Overlapping objects command\cf0\par
+\b0 This lets you select overlapping objects with CTRL + Tab.\par
+\par
+\cf1\b Common attribute control\cf0\par
+\b0 This lets you select and move the text of multiple attributes simultaneously.\par
+\par
+\cf1\b Bill of materials export\cf0\par
+\b0 A delimiter can now be added to make exporting easier. \par
+\par
+\cf1\b RGB color stored in file\cf0\par
+\b0 RGB color information (rather than a palette number) is now stored in the circuit file so when the circuit is given to someone else, the colors stay the same.\par
+\par
+\cf1\b Batch file parameters\cf0\par
+\b0 The Batch Script language has been enhanced so that parameters can be defined and passed from the batch file to the circuit being analyzed. Numeric output files can be named to avoid overwriting.\par
+\par
+\cf1\b New hotkeys\cf0\par
+\b0 Node snap and text increment can now be enabled/disabled with hotkeys.  \par
+Monte Carlo\par
+\par
+\cf1\b New Tolerance dialog box\cf0\par
+\b0 This provides a rapid way to apply LOT and DEV tolerances. Tolerance templates can be saved and applied to future models. \par
+\par
+\cf1\b Improved Load MC File command\cf0\par
+\b0 A Load MC file dialog box lets you choose which of the cases you want to load for review.\par
+\par
+\cf1\b Performance measurement display\cf0\par
+\b0 Selecting a case from the Histogram display list while the plot is in Cursor mode causes the corresponding performance function measurement to be shown. \par
+\par
+\par
+\cf4\b Expressions\cf0\par
+\cf1 Multi-dimension complex arrays\cf0\par
+\b0 Arrays were extended to many dimensions and now handle complex values instead of just real values. \par
+\par
+\cf1\b Enhanced FFTS and HARM functions\cf0\par
+\b0 An optional bandwidth parameter was added to the FFTS and HARM functions. \par
+\par
+\cf1\b Complex impedance\cf0\par
+\b0 Complex impedance and conductance expressions for passive elements like Z(D1), Z(C1), Z(L1), and Z(R1) are now available in AC. \par
+\par
+\cf1\b Legendre polynomials\cf0\par
+\b0 Legendre polynomials were added. \par
+\par
+\cf1\b Lambert W function\cf0\par
+\b0 The Lambert W function was added.\par
+\par
+\cf1\b New limiting exponential functions\cf0\par
+\b0 EXPL: if x is less than max then exp(x) else exp(max)*(x+1-max ) \par
+EXPLP: Derivative of EXPL(x,max) with respect to x \par
+\par
+\par
+\cf4\b Filter Designer\cf0\par
+\cf1 Passive elliptic filters\cf0\par
+\b0 Passive elliptic filter capability was added. \par
+\par
+\cf1\b Fit to Standard Values command\cf0\par
+\b0 A new command was added to find the optimal series or parallel arrangement of standard resistors, capacitors, and inductors. \par
+\par
+\par
+\cf4\b Component Editor\cf0\par
+\cf1 New right click menu\cf0\par
+\b0 This menu lets you add, copy, delete, paste, replace, and find information for parts. \par
+\par
+\cf1\b Improved Group Delete command\cf0\par
+\b0 Deleting a populated group is now allowed, after a warning is given that the parts will be deleted. \par
+\par
+\cf1\b Improved Move Parts command\cf0\par
+\b0 The Move Parts dialog box allows selection of both the From directory and the To directory. Previously, the From directory had to be selected before invoking the Move Parts command. \par
+\par
+\cf1\b Improved Add Part wizard\cf0\par
+\b0 The Add Part wizard now asks for the model file name before the part name, allowing it to scan the file and offer a list of candidate names from the model file. \par
+\par
+\cf1\b Macro parameters\cf0\par
+\b0 These parameters can now be automatically displayed when initially placed in a schematic without having to turn on the Show flag for each one. This feature is set in the Component library.\par
+\par
+\cf1\b Remove file icon\cf0\par
+\b0 Remove File icon is different from the Delete (part) icon. \par
+\par
+\par
+\cf4\b Miscellaneous Improvements\cf0\par
+\cf1 User-adjustable recently used component list\cf0\b0\par
+The size of the recently used component list is now user adjustable. \par
+\par
+\cf1\b File menu view settings memory\cf0\par
+\b0 The view settings (details, list, etc.) in the File menu are now saved between uses. Windows XP or later. \par
+\par
+\cf1\b Improved Find in Files command\cf0\par
+\b0 The text search option now searches analysis plots and analysis limits text expressions in addition to schematic text objects.\par
+\par
+\par
+\cf2\b\f1\fs24\par
+\f0\fs28\par
+}
+ 

@@ -1,0 +1,478 @@
+[Main]
+FileType=CIR
+Version=9.00
+Program=Micro-Cap
+Screen=1280,1024
+MCAPVersion=9.0.0.0
+Key ID=208 332 945
+NLCnt=4
+TXCnt=9
+
+[shapedef]
+Name=NPN
+Root="Bjt.root",0,-24,0
+PolyClosed=3 ,Solid
+PolyLine=20,12
+PolyLine=24,12
+PolyLine=24,8
+
+[shapedef]
+Name=Ground
+Line=0,0,12,0
+Line=12,-8,12,8
+Line=18,-4,18,4
+Line=24,0,24,0
+
+[shapedef]
+Name=Bjt.root
+Line=0,0,13,0
+Rectangle=13,-12,15,12,SOLID
+Current=32,-24,32,-16
+Current=32,24,32,16
+Current=0,-8,8,-8
+PolyOpen=3 
+PolyLine=24,-24
+PolyLine=24,-12
+PolyLine=14,-2
+PolyOpen=3 
+PolyLine=24,24
+PolyLine=24,12
+PolyLine=14,2
+
+[shapedef]
+Name=Bjt_Euro.root
+Ellipse=4,-16,36,16
+Line=0,0,13,0
+Rectangle=13,-12,15,12,SOLID
+Current=32,-24,32,-16
+Current=32,24,32,16
+Current=0,-12,8,-12
+PolyOpen=3 
+PolyLine=24,24
+PolyLine=24,12
+PolyLine=14,2
+PolyOpen=3 
+PolyLine=24,-24
+PolyLine=24,-12
+PolyLine=14,-2
+
+[shapedef]
+Name=NPN_Euro
+PolyClosed=4 ,Solid
+PolyLine=24,8
+PolyLine=24,8
+PolyLine=24,12
+PolyLine=20,12
+Root="Bjt_Euro.root",0,-24,0
+
+[shapedef]
+Name=Ground_Euro
+Line=0,0,12,0
+Line=12,-8,12,8
+
+[shapedef]
+Name=Staircase
+Line=36,0,48,0
+Ellipse=12,-12,36,12
+Line=0,-8,0,8
+PolyOpen=9 
+PolyLine=18,-8
+PolyLine=18,-4
+PolyLine=22,-4
+PolyLine=22,0
+PolyLine=26,0
+PolyLine=26,4
+PolyLine=30,4
+PolyLine=30,8
+PolyLine=30,8
+Line=0,0,12,0
+Line=-6,-4,-6,4
+
+[compdef]
+Name=NPN
+Definition=NPN
+Shape=NPN
+ShapeAlias="Euro","NPN_Euro"
+Mask=4097
+memo=NPN Transistor
+Label Offset=28,-13,-5,23
+PinCnt=3
+Pin="Collector",3,-3,4,14
+Pin="Base",0,0,-18,-3
+Pin="Emitter",3,3,5,1
+
+[compdef]
+Name=Ground
+Definition=Ground
+Shape=Ground
+ShapeAlias="Euro","Ground_Euro"
+ShapeAlias="Main1","Ground"
+Mask=1793
+memo=Ground
+Label Offset=0,0,0,0
+PinCnt=1
+Pin="PinA",0,0,-3,-7
+
+[compdef]
+Name=Staircase
+Definition=Macro
+Shape=Staircase
+Mask=4864
+memo=Staircase waveform source
+Link=staircase.pdf
+Label Offset=19,13,15,11
+PinCnt=1
+Pin="Out",a,6,0
+
+[Circuit]
+Window Placement=2,3, -1,-1, -4,-23, 44,44,833,631
+Default Object=Color=#000080
+Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
+Default Object Apply Border To Text=No
+Default Object Apply Fill To Text=No
+WinBackGround Color=#FFFFFF
+Select Color=#FF0000
+Select Box Color=#000080
+Grid Text Color=Height=-12,FStyle=0,Color=#FF0000,Name=Verdana
+Component Color=#0000FF
+Attribute Text=Height=-12,FStyle=0,Color=#008000,Name=Verdana
+Wire Color=#008000
+Bus Color=#008000
+Pin Connection=Height=-10,FStyle=0,Color=#FF0000,Name=Arial
+Node Number=Height=-11,FStyle=0,Color=#FF00FF,Name=Arial
+Node Voltage Color=#000000
+Dynamic AC Voltage Color=#E4E4E4
+Text Banner Text=Height=-15,FStyle=0,Color=#800000,Name=Arial
+Title Block Background=#C0C0C0
+Current=Height=-11,FStyle=0,Color=#0000FF,Name=Arial
+Power/Condition=Height=-11,FStyle=0,Color=#FF0000,Name=Arial
+Digital Path Color=#FF0000
+Title Block=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Disabled	Color=#C0C0C0
+KeyWord Color=#0000FF
+Error	Color=#FF0000
+Digital 0 Color=#000000
+Digital R Color=#FFFF00
+Digital F Color=#FFFF00
+Digital 1 Color=#FF0000
+Digital X Color=#C0C0C0
+Digital Z Color=#808080
+SpiceType=AMBIGUOUS
+Block Select Color=#51F998
+TitleBlock Field_1=$name
+TitleBlock Field_2=$user $company
+TitleBlock Field_3
+TitleBlock Field_4=$date
+TitleBlock Field_5=Page $page of $maxpage
+TitleBlock One Title=False
+Title_Block_Border=False
+Title_Block=False
+Show Nodes=False
+Show Voltages=False
+Show Current=False
+Show Power=False
+Show Condition=False
+Show Pin Connections=False
+Show Cross=False
+Show Attribute Text=True
+Show Grid Text=True
+
+[Object]
+Object=Picture
+CBorder=NONE
+Grids=32,10,34,12
+Rot=0
+
+[Attr]
+ONV=0,0,FILE,LINK.BMP
+
+[Comp]
+Name=NPN
+Grid=22,46
+
+[Attr]
+ONV=28,-13,PART,Q1
+Style=8192
+
+[Attr]
+ONV=28,1,MODEL,2N708
+
+[Attr]
+ONV=28,29,PACKAGE,TO-18
+
+[Comp]
+Name=Ground
+Grid=25,49
+Rot=1
+
+[Comp]
+Name=Staircase
+Grid=25,59
+Rot=3
+
+[Attr]
+ONV=15,-31,PART,X1
+Style=8192
+
+[Attr]
+ONV=-73,-39,FILE,Staircase
+
+[Attr]
+ONV=-23,-67,Param:INCREMENT,1
+
+[Attr]
+ONV=-33,-81,Param:STEPWIDTH,1M
+
+[Attr]
+ONV=-31,-95,Param:STEPS,10
+
+[Attr]
+ONV=-23,-109,Param:INITIAL,0
+
+[Grid Text]
+Text="4)"
+Grid=17,47
+CBorder=NONE
+
+[Grid Text]
+Text="3)"
+Grid=17,41
+CBorder=NONE
+
+[Grid Text]
+Text="2)"
+Grid=17,38
+CBorder=NONE
+
+[Grid Text]
+Text="1)"
+Grid=17,35
+CBorder=NONE
+
+[Grid Text]
+Text="This file illustrates the use of file links.  These links can be triggered by enabling File Link mode þand then clicking on the text or component.  Select File Link mode by þgoing to the Options \ Mode \ File Link menu items þor by clicking on the File Link icon:þþ1) The first loads the MC9 Reference Manual (The path is determined by the path set in the Document þfield through the Paths command under the File menu).þ2) The second invokes the Spectrum Software web site.þ3) The third executes the MC8 program.þ4) To see the transistor's file link, click on it and then in the dialog box click on the blue File Link item.þThis is the default link syntax for components.þ5) Click on the staircase source in File Link mode to load a PDF file describing its operation.þThis link was defined for the part in the Component Editor.þþNote: On your system the 3'rd option may not exist or may have a different location."
+Grid=6,32
+Color=#0000FF
+CBorder=NONE
+
+[Grid Text]
+Text="rm.pdf"
+Grid=22,35
+Color=#008000
+CBorder=NONE
+
+[Grid Text]
+Text="www.spectrum-soft.com"
+Grid=22,38
+Color=#008000
+CBorder=NONE
+
+[Grid Text]
+Text="c:\mc8\mc8.exe"
+Grid=22,41
+Color=#008000
+CBorder=NONE
+
+[Grid Text]
+Text="5)"
+Grid=17,57
+CBorder=NONE
+
+[Schematic]
+CurrentSection 0=0
+CurrentSection 1=0
+CurrentSection 2=0
+CurrentSection 3=0
+Splitter.xs=0
+Splitter.ys=0
+TextQuad=4099
+Scale=0.6666666666666666
+PrinterScale=1
+GridUser=12
+ShapeGroups="Main","Euro","DeMorgan","Main1","Polarity","Electrolytic"
+CalcRMS=True
+CalcAVG=False
+CalcPeak=False
+DisplayMeasure=RMS
+
+[Tools]
+Pos=Top
+PROBE=Yes
+SELECT=Yes
+COMP=Yes
+TEXT=Yes
+WIRE=Yes
+WIRED=Yes
+BUS=Yes
+GRAPHIC=Yes
+LINE=No
+ELLIPSE=No
+RECT=No
+DIAM=No
+ARC=No
+PIE=No
+LEFTBRK=No
+RIGHTBRK=No
+BOTHBRK=No
+FLAG=Yes
+META=No
+INFO=Yes
+HELP=Yes
+LINK=Yes
+REGION_ENABLE=Yes
+DIGTRC=No
+DIGTRC2=No
+DIGALL=No
+GRIDTEXT=Yes
+COMPTEXT=Yes
+NODE=Yes
+MEASURED=Yes
+NODEV=Yes
+CURRENT=Yes
+POWER=Yes
+CONDITIN=Yes
+PIN=Yes
+CROSS=No
+GRID=Yes
+BORDER=No
+TITLE=Yes
+RUBBER=Yes
+PROPERTY=Yes
+STEP=Yes
+MIRROR=Yes
+ROTATE=Yes
+FLIPY=Yes
+FLIPX=Yes
+FINDCOMP=Yes
+FIND=Yes
+REPEAT=No
+MODEL=Yes
+CIR2CKT=No
+ATTDISP=No
+ENABLE=Yes
+DISABLE=Yes
+TOFRONT=Yes
+TOBACK=Yes
+SELNEXT=No
+PAGEADD=No
+PAGEDEL=No
+ZOOMIN=Yes
+ZOOMOUT=Yes
+GOTOFLAG=No
+UPLEVEL=Yes
+COLOR=Yes
+FONT=Yes
+
+[Section]
+Index=0
+Name="LINKS"
+Type=Main
+Enable=True
+CurrentPage 0=0
+CurrentPage 1=0
+CurrentPage 2=0
+CurrentPage 3=0
+TabSize 0=320
+TabSize 1=320
+TabSize 2=320
+TabSize 3=320
+
+[Page]
+Index=0
+Section=0
+Print=True
+Enable=True
+Name=Main
+Scale 0=1
+Scale 1=1
+Scale 2=1
+Scale 3=0.6666666666666666
+Grid=65,46
+
+[Page]
+Index=1
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Text
+
+[Page]
+Index=2
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Models
+
+[Page]
+Index=3
+Section=0
+Type=Info
+Print=False
+Enable=True
+Name=Info
+
+[Text Area]
+Section=0
+Page=1
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+Background Color=#FFFFFF
+Len=0
+
+
+[Text Area]
+Section=0
+Page=2
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+Background Color=#FFFFFF
+Len=0
+
+
+[Limits]
+Analysis=DynamicAC
+FirstValueDisplay=Mag
+SecondValueDisplay=PhaseDeg
+PlaceText=True
+
+[Limits]
+Analysis=DynamicDC
+PlaceText=True
+
+[Pane]
+Analysis=Transient
+
+[Pane]
+Analysis=AC
+
+[Pane]
+Analysis=DC
+
+[Pane]
+Analysis=Distortion
+
+[OPMethods]
+Analysis=Transient
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=AC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=DC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
